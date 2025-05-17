@@ -35,3 +35,5 @@ function search(){
         subpages_list_container.appendChild(subpage);
     }
 }
+
+search_button.addEventListener("click", search);
