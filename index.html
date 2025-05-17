@@ -17,8 +17,13 @@
         </nav>
         <section>
             <input type="search" id="search_input" placeholder="Szukaj">
+            <select id="category">
+                <option value="wszystko">Wszystko</option>
+                <option value="postacie">Postacie</option>
+                <option value="potwory">Potwory</option>
+            </select>
+            <button id="search_button" onclick="search()">Szukaj</button>
             <ul id="subpages_list"></ul>
-            <button onclick="testClick()">KLIKNIJ</button>
         </section>
     </main>
     <footer>
