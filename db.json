@@ -1,0 +1,7 @@
+{
+    "subpages":
+    [
+        {"id" : 1,"title" : "Subpage 1","character" : "Character 1","url": "subpages/#"},
+        {"id" : 2,"title" : "Subpage 2","character" : "Character 2","url": "subpages/#"}
+    ]
+}
