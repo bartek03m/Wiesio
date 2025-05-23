@@ -91,10 +91,6 @@ footer{
     border-radius: 8px;
 }
 
-.hovertx:hover .hoverimg{
-    display: block;
-}
-
 .hoverimg img{
     width: 200px;
     height: auto;
