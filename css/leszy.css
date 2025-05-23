@@ -4,6 +4,7 @@ body {
         url("/images/darkforest.jpg");
     background-size: cover;
     background-blend-mode: darken;
+    font-family: 'MedievalSharp', serif;
 }
 
 header{
