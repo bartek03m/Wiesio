@@ -1,3 +1,12 @@
+<!--
+do stylizacji
+przycisk szukania
+rozwijane to to tamto
+pole wyszukiwania
+lista z podstronami
+lekko
+-->
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -8,7 +17,6 @@
     <link rel="stylesheet" href="css/mainstyle.css">
     <link rel="stylesheet" href="css/homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search">
     <script src="js/homepage.js" defer></script>
 </head>
 <body>
@@ -34,16 +42,14 @@
             </section>
             <section>
                 <h2>Wyszukaj postać lub potwora</h2>
+                <label for="search_input">Wyszukaj:</label>
+                <input type="search" id="search_input" placeholder="Szukaj">
                 <label for="category">Kategoria:</label>
                 <select id="category" name="category">
                     <option value="wszystko">Wszystko</option>
                     <option value="postacie">Postacie</option>
                     <option value="potwory">Potwory</option>
                 </select>
-                <br>
-                <label for="search_input">Wyszukaj:</label>
-                <input type="search" id="search_input" placeholder="Szukaj">
-                <button id="search_button" ><span class="material-symbols-outlined">search</span></button>
                 <ul id="subpages_list"></ul>
             </section>
         </main>

@@ -1,6 +1,5 @@
 const search_input = document.querySelector("#search_input");
 const selected_category = document.querySelector("#category");
-const search_button = document.querySelector("#search_button");
 const subpages_list_container = document.querySelector("#subpages_list");
 
 let subpages = [];
@@ -19,6 +18,11 @@ function search(){
     const category = selected_category.value;
     let isFound = false;
     subpages_list_container.innerHTML = '';
+    if(input_value =="")
+    {
+        subpages_list_container.innerHTML ="";
+        return;
+    }
     subpages.forEach(item => {
         const category_match = item.category == category || category == "wszystko";
         if(category_match && item.character.includes(input_value))
@@ -36,4 +40,4 @@ function search(){
     }
 }
 
-search_button.addEventListener("click", search);
+search_input.addEventListener("input", search);
