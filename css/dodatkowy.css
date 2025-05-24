@@ -27,7 +27,7 @@ footer{
     background: linear-gradient(to bottom, rgba(40, 40, 43, 0.7), rgba(40, 40, 43, 0.7));
     color: #A9A9A9;
 }
-.podpis_transparent{
+.podpis{
     text-align:center;
     font-style: italic;
     margin-top: 5px;
@@ -49,10 +49,18 @@ footer{
     height: 400px;
     margin-right: 20px;
     border-radius: 10px;
-    background-color:rgba(29, 29, 31, 0.8);
-    
+    border: 2px solid #343447;
+    background-color: rgba(23, 23, 24, 0.8)
 }
 
+.yen{
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
 .zdjecie-male {
     width: 100%;
     height: 100%;
@@ -78,11 +86,13 @@ footer{
     background-color: rgba(0, 0, 0, 0.8);
     align-items: center;
     justify-content: center;
+
 }
 .zdjecie-duze {
     max-width: 90%;
     max-height: 90vh;
     box-shadow: 0 0 20px black;
+    background-color: black;
 }
 
 
