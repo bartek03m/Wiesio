@@ -1,0 +1,13 @@
+.spoiler {
+  background-color: #202225;
+  color: #202225;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.spoiler.revealed {
+  color: #dcddde;
+  background-color: #36393f;
+}
