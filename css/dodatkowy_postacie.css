@@ -101,3 +101,11 @@
     gap:10px;
     width: 100%;
 }
+.zdjecie-duze-ciri
+{
+    width: 60%;
+    min-width: 30vw;
+    max-width: 40vw;
+    background-color: #000000;
+    display:block;
+}
