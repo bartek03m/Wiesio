@@ -24,6 +24,7 @@ body{
     gap: 0;
     grid-template-columns: 1fr 7fr;
     grid-template-rows: auto 1fr auto;
+    justify-content: center;
 }
 header{
     grid-area: header;

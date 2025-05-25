@@ -11,7 +11,7 @@ fetch('/data/db.json')
         search();
     })
     .catch(error => {
-        console.warn(error);
+        console.warn("nie udało się załadować podstron", error);
     });
 
 function search(){
@@ -21,17 +21,19 @@ function search(){
     subpages_list_container.innerHTML = '';
     subpages.forEach(item => {
         const category_match = item.category == category || category == "wszystko";
+        const subpage = document.createElement("a");
         if(category_match && item.character.toLowerCase().includes(input_value))
         {
             isFound = true;
-            const subpage = document.createElement("li");
-            subpage.innerHTML = `<a href="${item.url}">${item.character}</a>`;
+            const subpage = document.createElement("a");
+            subpage.href=item.url;
+            subpage.innerHTML = item.character;
             subpages_list_container.appendChild(subpage);
         }
     });
     if(!isFound){
-        const subpage = document.createElement("li");
-        subpage.innerHTML = 'Nie znaleziono wyników';;
+        const subpage = document.createElement("p");
+        subpage.innerHTML = 'Nie znaleziono wyników';
         subpages_list_container.appendChild(subpage);
     }
 }
