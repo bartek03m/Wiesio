@@ -8,6 +8,7 @@ fetch('../db.json')
     .then(response => response.json())
     .then(data => {
         subpages = data.subpages;
+        search();
     })
     .catch(error => {
         console.warn(error);
@@ -16,13 +17,8 @@ fetch('../db.json')
 function search(){
     const input_value = search_input.value.toLowerCase();
     const category = selected_category.value;
-    let isFound = false;
+    let isFound = true;
     subpages_list_container.innerHTML = '';
-    if(input_value =="")
-    {
-        subpages_list_container.innerHTML ="";
-        return;
-    }
     subpages.forEach(item => {
         const category_match = item.category == category || category == "wszystko";
         if(category_match && item.character.toLowerCase().includes(input_value))
@@ -39,5 +35,5 @@ function search(){
         subpages_list_container.appendChild(subpage);
     }
 }
-
 search_input.addEventListener("input", search);
+selected_category.addEventListener("change", search);

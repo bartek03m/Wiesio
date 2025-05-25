@@ -1,7 +1,12 @@
 {
     "subpages":
     [
-        {"id" : 1, "name" : "Subpage 1", "character" : "Character 1", "category": "postacie" , "url": "subpages/#"},
-        {"id" : 2, "name" : "Subpage 2", "character" : "Character 2", "category": "potwory" , "url": "subpages/#"}
+        {"id" : 1, "character" : "Leszy", "category": "potwory" , "url": "/subpages/#"},
+        {"id" : 2, "character" : "Utopiec", "category": "potwory" , "url": "/subpages/#"},
+        {"id" : 3, "character" : "Baba Wodna", "category": "potwory" , "url": "/subpages/#"},
+        {"id" : 4, "character" : "Dziki Gon", "category": "potwory" , "url": "/subpages/#"},
+        {"id" : 5, "character" : "Krabopająk", "category": "potwory" , "url": "/subpages/#"},
+        {"id" : 6, "character" : "Geralt", "category": "postacie" , "url": "/subpages/#"},
+        {"id" : 7, "character" : "Yenefer", "category": "postacie" , "url": "/subpages/#"}
     ]
 }

@@ -1,0 +1,59 @@
+label {
+    font-family: 'MedievalSharp', serif;
+    font-size: 1.1rem;
+    color: #4a3e2a;
+}
+input, select {
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    border: 3px solid #9f9872;
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+}
+input::placeholder {
+    font-style: italic;
+}
+input:focus, select:focus {
+    border-color: #9c7f17;
+}
+select {
+    cursor: pointer;
+    appearance: none;
+}
+#subpages_list {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+#subpages_list li {
+    background-color: rgba(222, 212, 210, 0.85);
+    padding: 0.8rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #4a3e2a;
+    cursor: pointer;
+    width: 50%;
+    transition: 
+        border-color 0.4s,
+        transform 0.4s;       
+}
+#subpages_list li:hover {
+    border: 2px solid #9c7f17;
+}
+#subpages_list li a {
+    font-family: 'MedievalSharp', serif;
+    text-decoration: none; 
+    color: #000000;
+    font-weight: 700;
+
+}
+#subpages_list li:hover a {
+    color: #645211;
+}
