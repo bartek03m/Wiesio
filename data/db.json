@@ -9,7 +9,7 @@
         {"id" : 6, "character" : "Geralt z Rivii", "category": "postacie" , "url": "/subpages/geralt.html"},
         {"id" : 7, "character" : "Yennefer z Vengerbergu", "category": "postacie" , "url": "/subpages/yennefer.html"},
         {"id" : 8, "character" : "Cirilla Fiona Elen Riannon (Ciri)", "category": "postacie" , "url": "/subpages/ciri.html"},
-        {"id" : 9, "character" : "Triss Merigold ", "category": "postacie" , "url": "/subpages/triss.html"},
+        {"id" : 9, "character" : "Triss Merigold", "category": "postacie" , "url": "/subpages/triss.html"},
         {"id" : 10, "character" : "Julian Alfred Pankratz wicehrabia de Lettenhove (Jaskier)", "category": "postacie" , "url": "/subpages/jaskier.html"}
     ]
 }
