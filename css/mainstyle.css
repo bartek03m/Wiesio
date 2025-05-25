@@ -133,3 +133,7 @@ hr{
 footer p{
     text-align: center;
 }
+#logo{
+    width: 60%;
+    padding: 1rem;
+}
