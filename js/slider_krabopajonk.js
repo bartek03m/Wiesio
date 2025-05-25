@@ -38,3 +38,16 @@ document.addEventListener("keydown", function (e) {
         pokazSlajd(aktualne_zdj + 1);
     }
 });
+
+document.querySelector("#slideract").addEventListener("click", function(){
+    slider.style.display = 'flex';
+});
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") 
+    {
+        slider.style.display = "none";
+    }
+});
+slajd.addEventListener("click", function(){
+    slider.style.display = "none";
+});

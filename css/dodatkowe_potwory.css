@@ -78,12 +78,13 @@
     margin-right: 20px;
     border-radius: 10px;
 }
-.zdjecie-duze-dg
+.zdjecie-duze-dg, .zdjecie-duze-dg2
 {
     min-width: 40vw;
     max-width: 50vw;
     background-color: #000000;
 } 
+
 .kontener-maly-dg2
 {
     margin:auto;
@@ -176,4 +177,46 @@
 {
     color: #dcddde;
     background-color: #36393f;
+}
+body.darkmode .spoiler.revealed
+{
+    color: #9e9e9e;
+}
+@media (max-width: 1400px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main > *
+    {
+        width: 100%;
+    }
+    .kontener-maly-leszy
+    {
+        float: none;
+        margin: auto;
+    }
+    .zdjecie-duze 
+    {
+        min-width: 40vw;
+        max-width: 50vw;
+        background-color: #000000;
+    } 
+    .kontener-maly-dg, .kontener-maly-dg2
+    {
+        width: 70%;
+    }
+    .zdjecie-duze-dg, .zdjecie-duze-dg2
+    {
+        min-width: 70vw;
+        max-width: 80vw;
+    }
+    #slide
+    {
+        width: 40%;
+    }
 }

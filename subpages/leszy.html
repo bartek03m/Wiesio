@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/dodatkowe_potwory.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <script src="/js/dynamic_images.js"></script>
+    <script src="/js/darkmode.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -50,15 +51,16 @@
             </ul>
         </nav>
         <main>
-            <hr>
-            <h1>Leszy (dziad borowy)</h1>
+            <section>
+                <hr>
+                <h1>Leszy (dziad borowy)</h1>
                 <figure class="kontener-maly-leszy" id="kontener-leszego">
                     <div class="ograniczenie">
                         <img src="/images/leszy1.jpg" alt="Leszy" class="zdjecie-male" id="zdjecie-leszego">
                     </div>
                     <figcaption class="podpis" id="podpisLeszy">Zdjęcie Leszego w naturalnym środowisku</figcaption>
                 </figure>
-            
+            </section>
             <section>
                 <p>
                     Leszy jest skrajnie terytorialny, niezwykle cięzki do wytropienia i przebiegły. <br> Nie wiedzieć czemu, przez wielu chłopów uznawany za ducha lasu sprawującego opiekę.<br> W niektórych reginach nawet otaczane są swego rodzaju kultem.
@@ -97,7 +99,7 @@
         </footer>
     </div>
    <script>
-        ToggleImgClass("#zdjecie-leszego", "#kontener-leszego", "#podpisLeszy", "zdjecie-male", "zdjecie-duze", "kontener-maly", "kontener-duzy", "podpis");
+        ToggleImgClass("#zdjecie-leszego", "#kontener-leszego", "#podpisLeszy", "zdjecie-male", "zdjecie-duze", "kontener-maly-leszy", "kontener-duzy", "podpis");
         ImgHover(".hovertx", ".hoverimg");
     </script>
 </body>

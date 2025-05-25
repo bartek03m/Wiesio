@@ -1,0 +1,102 @@
+#container {
+    min-height: calc(100vh - 1rem);
+    grid-template-rows: auto 1fr auto;
+}
+label {
+    font-family: 'MedievalSharp', serif;
+    font-size: 1.1rem;
+    color: #4a3e2a;
+}
+input, select {
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    border: 3px solid #9f9872;
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+}
+input::placeholder {
+    font-style: italic;
+}
+input:focus, select:focus {
+    border-color: #9c7f17;
+}
+select {
+    cursor: pointer;
+    appearance: none;
+}
+#subpages_list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+#subpages_list a {
+    width: 50%;
+    padding: 1rem;
+    background-color: rgba(222, 212, 210, 0.85);
+    border: 2px solid #4a3e2a;
+    border-radius: 10px;
+    font-family: 'MedievalSharp', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none; 
+    color: #000000;
+    cursor: pointer;
+    transition: 
+        border-color 0.4s,
+        transform 0.4s;    
+}
+#subpages_list a:hover {
+    border: 2px solid #9c7f17;
+    color: #645211;
+}
+body.darkmode label {
+    color: #e9d19c;
+}
+body.darkmode input, body.darkmode select {
+    border: 3px solid #e9d19c;
+    background-color: #000000;
+    color: #e9d19c;
+}
+body.darkmode input::placeholder {
+    color: #b5a06d;
+}
+body.darkmode input:focus, body.darkmode select:focus {
+    border-color: #e9d19c;
+}
+body.darkmode #subpages_list a {
+    background-color: rgba(24, 24, 24, 0.85);
+    border: 2px solid #e9d19c; 
+    color: #e9d19c;
+}
+body.darkmode #subpages_list a:hover {
+    border: 2px solid #e9d19c;
+    color: #e9d19c;
+}
+@media (max-width: 945px) {
+    label {
+        font-size: 1rem;
+    }
+    input, select {
+        font-size: 1rem;
+        padding: 0.2rem 0.3rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        width: 50%;
+        margin: auto;
+    }
+    #subpages_list {
+        gap: 0.3rem;
+    }
+    #subpages_list a {
+        padding: 0.4rem;  
+    }
+}

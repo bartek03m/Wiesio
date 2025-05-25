@@ -13,7 +13,7 @@
     <script src="/js/dynamic_images.js"></script>
     <script src="/js/slider_krabopajonk.js" defer></script>
     <script src="/js/spoiler.js" defer></script>
- 
+    <script src="/js/darkmode.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -110,16 +110,6 @@
    <script>
         ToggleImgClass("#zdjecie-kp", "#kontener-kp", "#podpisKp", "zdjecie-male", "zdjecie-duze", "kontener-maly-kp", "kontener-duzy", "podpis");
         ImgHover(".hovertx", ".hoverimg");
-        document.querySelector("#slideract").addEventListener("click", function(){
-            slider.style.display = 'flex';
-        });
-        document.addEventListener('keydown', function(event) {
-            if (event.key === "Escape") 
-            {
-                slider.style.display = "none";
-            }
-        });
     </script>
-    
 </body>
 </html>
