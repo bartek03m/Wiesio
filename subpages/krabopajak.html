@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/css/sopiler.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <script src="/js/dynamic_images.js"></script>
+    <script src="/js/slider_krabopajonk.js" defer></script>
+    <script src="/js/spoiler.js" defer></script>
  
 </head>
 <body>
@@ -62,7 +64,7 @@
                 </p>
                 <p>
                     <q>N'arache aen woed endicen (Nie wywołuj krabopająka z lasu)</q> - elfickie przysłowie<br><br>
-                    <q>Pół krab, pół pająk. Słowem <span class="spoiler">*cenzura*.</span></q>- Karta do Gwinta🃏 <!--dodać tutaj naciśnięcie tekstu i obraz który można zobaczyć 3 wersje kart z gwinta jak zostanie czas-->
+                    <q>Pół krab, pół pająk. Słowem <span class="spoiler">*cenzura*.</span></q>- <span id="slideract">Karta do Gwinta🃏</span>
                 </p>
             </section>
             <section>
@@ -91,10 +93,27 @@
             <p>Stronę wykonali: Julia Michniewicz, Oliwier Góralczyk, Bartosz Majewski &copy;</p>
         </footer>
     </div>
+    <div id="slider">
+        <img id="slide" src="" alt="slajd" data-slider="krabopajak">
+        <p id="podpis-slider"></p>
+        <div id="nawigacja">
+            <button id="poprzednie">&larr;</button>
+            <button id="nastepne">&rarr;</button>
+         </div>
+    </div>
    <script>
         ToggleImgClass("#zdjecie-kp", "#kontener-kp", "#podpisKp", "zdjecie-male", "zdjecie-duze", "kontener-maly-kp", "kontener-duzy", "podpis");
         ImgHover(".hovertx", ".hoverimg");
+        document.querySelector("#slideract").addEventListener("click", function(){
+            slider.style.display = 'flex';
+        });
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") 
+            {
+                slider.style.display = "none";
+            }
+        });
     </script>
-    <script src="/js/spoiler.js"></script>
+    
 </body>
-</html> 
+</html>
