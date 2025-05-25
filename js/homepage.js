@@ -10,7 +10,7 @@ fetch('../db.json')
         subpages = data.subpages;
     })
     .catch(error => {
-        console.log(error);
+        console.warn(error);
     });
 
 function search(){
@@ -25,7 +25,7 @@ function search(){
     }
     subpages.forEach(item => {
         const category_match = item.category == category || category == "wszystko";
-        if(category_match && item.character.includes(input_value))
+        if(category_match && item.character.toLowerCase().includes(input_value))
         {
             isFound = true;
             const subpage = document.createElement("li");

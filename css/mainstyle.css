@@ -47,7 +47,7 @@ main{
         rgb(222, 212, 210, 0.85),
         rgba(121, 115, 112, 0.85)
         );
-    padding: 2rem;
+    padding: 0 2rem;
     line-height: 1.1; 
 }
 footer{
@@ -91,4 +91,7 @@ p{
 }
 #logo{
     width: 100px;
+}
+hr{
+    border-top: 1px solid #9c7f17;
 }
