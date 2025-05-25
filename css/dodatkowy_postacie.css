@@ -68,3 +68,25 @@
 {
     border-radius: 0px;
 }
+#slider {
+    display: grid;
+    place-items: center; 
+    gap: 10px;
+}
+
+#slide {
+    width: 60%;
+    height: auto;
+    display: block;
+    border: 3px solid black; 
+}
+#nawigacja{
+    display: grid;
+    grid-auto-flow: column;
+    gap:10px;
+}
+#nawigacja button {
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

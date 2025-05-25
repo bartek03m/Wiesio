@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/dodatkowy_postacie.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <script src="/js/dynamic_images.js"></script>
+    <script src="/js/slider.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -85,10 +86,15 @@
             </figure>
             <section>
 
-                <h3>Losy bohatera w grach</h3>
-                <p>
-                    
-                </p>
+                <h3>Ewolucja wyglądu postaci na przestrzeni gier</h3>
+                <div id="slider">
+                    <img id="slide" src="" alt="slajd" data-slider="geralt">
+                    <p id="podpis-slider"></p>
+                    <div id="nawigacja">
+                        <button id="poprzednie">&larr;</button>
+                        <button id="nastepne">&rarr;</button>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
