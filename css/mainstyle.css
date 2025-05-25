@@ -214,9 +214,6 @@ body.darkmode #main_menu > li:last-child {
     #darkmode-label{
         font-size: 0.7rem;
     }
-    hr{
-        border: 1px;
-    }
 }
 @media (max-width: 1400px) {
     #container{
