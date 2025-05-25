@@ -222,4 +222,7 @@ body.darkmode #main_menu > li:last-child {
     footer{
         font-size: 0.7rem;
     }
+    .drop_down_menu_content{
+        top: calc(100% + 10px);
+    }
 }
