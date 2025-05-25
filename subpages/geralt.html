@@ -30,8 +30,10 @@
         <main>
             <hr>
             <h1>Geralt z Rivi</h1>
-            <figure class="kontener-maly" id="kontener-geralta">
-                <img src="../images/transparent_geralt.jpg" alt="Geralt" class="zdjecie-male" id="zdjecie-geralta">
+            <figure class="kontener-maly-geralta" id="kontener-geralta">
+                <div class="ograniczenie">
+                    <img src="/images/transparent_geralt.jpg" alt="Geralt" class="zdjecie-male-geralta" id="zdjecie-geralta">
+                </div>
                 <figcaption class="podpis" id="podpis-geralta">Geralt z dziennika w grze Wiedźmin 3</figcaption>
             </figure>
             <section>
@@ -76,7 +78,9 @@
                 </p>
             </section>
             <figure class="kontener-maly-milosci" id="kontener-milosci">
-                <img src="../images/Yen_Geralt.jpg" class="yen" id="zdjecie-milosci">
+                <div class="ograniczenie">
+                    <img src="../images/Yen_Geralt.jpg" class="yen" id="zdjecie-milosci">
+                </div>
                 <figcaption class="podpis" id="podpis-milosci">Kadr z gry Wiedźmin 3, Geralt i Yennefer na Skellige </figcaption>
             </figure>
             <section>
@@ -92,7 +96,7 @@
         </footer>
     </div>
     <script>
-        ToggleImgClass("#zdjecie-geralta", "#kontener-geralta", "#podpis-geralta", "zdjecie-male", "zdjecie-duze", "kontener-maly", "kontener-duzy", "podpis");
+        ToggleImgClass("#zdjecie-geralta", "#kontener-geralta", "#podpis-geralta", "zdjecie-male-geralta", "zdjecie-duze", "kontener-maly-geralta", "kontener-duzy", "podpis");
         ImgHover(".hovertx", ".hoverimg");
         ToggleImgClass("#zdjecie-milosci", "#kontener-milosci", "#podpis-milosci", "yen", "zdjecie-duze", "kontener-maly-milosci", "kontener-duzy", "podpis");
     </script>
