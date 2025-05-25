@@ -16,7 +16,7 @@
     <div id="container">
         <header>
             <a href="/index.html">
-                <img src="/images/icon.png" alt="Wiedźmin wiki logo" id="logo">
+                <img src="/images/logo-lightmode.png" alt="Wiedźmin wiki logo" id="logo">
             </a>
         </header>
         <nav>
@@ -41,7 +41,13 @@
                     </ul>
                 </li>
                 <li><a href="/quiz.html">Quiz</a></li>
-                <li><a href="/kontakt.html">Kontakt</a></a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li>
+                    <label for="toggle-darkmode" id="darkmode-label"> 
+                        Tryb ciemny
+                    </label>
+                    <input type="checkbox" id="toggle-darkmode">
+                </li>
             </ul>
         </nav>
         <main>
@@ -52,7 +58,7 @@
                     <div class="ograniczenie">
                         <img src="/images/dzikigon1.png" alt="Dziki Gon" class="zdjecie-male" id="zdjecie-dg">
                     </div>
-                    <figcaption class="podpis" id="podpisDzikiGon">Zdjęcie Dzikiego Gonu</figcaption>
+                    <figcaption class="podpis" id="podpisDzikiGon1">Zdjęcie Dzikiego Gonu</figcaption>
                 </figure>
             </div>
             <section>
@@ -99,7 +105,7 @@
                     <div class="ograniczenie">
                         <img src="/images/dzikigon2.png" alt="Dziki Gon" class="zdjecie-male" id="zdjecie-dg2">
                     </div>
-                    <figcaption class="podpis" id="podpisDzikiGon">Zdjęcie Dzikiego Gonu v2</figcaption>
+                    <figcaption class="podpis" id="podpisDzikiGon2">Zdjęcie Dzikiego Gonu v2</figcaption>
                 </figure>
             </div>
         </main>
@@ -108,8 +114,8 @@
         </footer>
     </div>
    <script>
-        ToggleImgClass("#zdjecie-dg", "#kontener-dg", "#podpisDzikiGon", "zdjecie-male", "zdjecie-duze-dg", "kontener-maly-dg", "kontener-duzy", "podpis");
-        ToggleImgClass("#zdjecie-dg2", "#kontener-dg2", "#podpisDzikiGon", "zdjecie-male", "zdjecie-duze-dg2", "kontener-maly-dg2", "kontener-duzy", "podpis");
+        ToggleImgClass("#zdjecie-dg", "#kontener-dg", "#podpisDzikiGon1", "zdjecie-male", "zdjecie-duze-dg", "kontener-maly-dg", "kontener-duzy", "podpis");
+        ToggleImgClass("#zdjecie-dg2", "#kontener-dg2", "#podpisDzikiGon2", "zdjecie-male", "zdjecie-duze-dg2", "kontener-maly-dg2", "kontener-duzy", "podpis");
         ImgHover(".hovertx", ".hoverimg");
     </script>
 </body>

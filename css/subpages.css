@@ -1,12 +1,9 @@
-.hovertx
-{
+.hovertx{
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
-
-.hoverimg
-{
+.hoverimg{
     display: none;
     position: absolute;
     top: 100%;
@@ -20,28 +17,22 @@
     height: auto;
     border-radius: 8px;
 }
-
-h1
-{
+h1{
     text-align: center;
 }
-p
-{
+p{
     font-size: medium;
     text-align: justify;
 }
-q
-{
+q{
     font-style: italic;
 }
-.podpis
-{
+.podpis{
     text-align:center;
     font-style: italic;
     margin-top: 5px;
     font-size: 0.9em;
 }
-.nic
-{
+.nic{
     display: none;
 }
