@@ -17,12 +17,12 @@ fetch('/data/db.json')
 function search(){
     const input_value = search_input.value.toLowerCase();
     const category = selected_category.value;
-    let isFound = true;
+    let isFound = false;
     subpages_list_container.innerHTML = '';
     subpages.forEach(item => {
         const category_match = item.category == category || category == "wszystko";
         const subpage = document.createElement("a");
-        if(category_match && item.character.toLowerCase().includes(input_value))
+        if(category_match && item.character.toLowerCase().includes(input_value)) //zwracane jest true nawet jak jest puste bo includes("") zawsze daje true
         {
             isFound = true;
             const subpage = document.createElement("a");
