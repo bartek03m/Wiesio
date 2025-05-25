@@ -1,5 +1,5 @@
 /* kontener bez powiekszenia */
-.kontener-maly
+.kontener-maly-leszy
 {
     float: right;
     width: 300px;
@@ -53,7 +53,21 @@
 /* duze zdjecie */
 .zdjecie-duze 
 {
-    max-width: 90%;
+    min-width: 20vw;
+    max-width: 30vw;
     background-color: #000000;
-    display: block;
+} 
+.kontener-maly-utopiec
+{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.kontener-maly-babawodna
+{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
 }
