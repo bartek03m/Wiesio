@@ -1,0 +1,15 @@
+{
+    "subpages":
+    [
+        {"id" : 1, "character" : "Leszy", "category": "potwory" , "url": "/subpages/leszy.html"},
+        {"id" : 2, "character" : "Utopiec", "category": "potwory" , "url": "/subpages/utopiec.html"},
+        {"id" : 3, "character" : "Baba Wodna", "category": "potwory" , "url": "/subpages/babawodna.html"},
+        {"id" : 4, "character" : "Dziki Gon", "category": "potwory" , "url": "/subpages/dzikigon.html"},
+        {"id" : 5, "character" : "Krabopająk", "category": "potwory" , "url": "/subpages/krabopajak.html"},
+        {"id" : 6, "character" : "Geralt z Rivii", "category": "postacie" , "url": "/subpages/geralt.html"},
+        {"id" : 7, "character" : "Yennefer z Vengerbergu", "category": "postacie" , "url": "/subpages/yennefer.html"},
+        {"id" : 8, "character" : "Cirilla Fiona Elen Riannon (Ciri)", "category": "postacie" , "url": "/subpages/ciri.html"},
+        {"id" : 9, "character" : "Triss Merigold ", "category": "postacie" , "url": "/subpages/triss.html"},
+        {"id" : 10, "character" : "Julian Alfred Pankratz wicehrabia de Lettenhove (Jaskier)", "category": "postacie" , "url": "/subpages/jaskier.html"}
+    ]
+}
