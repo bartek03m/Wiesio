@@ -1,7 +1,7 @@
 .kontener-maly-geralta
 {
     float: right;
-    width: 300px;
+    width: 320px;
     margin-right: 20px;
     border-radius: 10px;
 }
@@ -22,7 +22,6 @@
 .kontener-maly-milosci
 {
     width: 600px;
-    margin-right: 20px;
     border-radius: 10px;
     margin: auto;
 }
@@ -89,4 +88,16 @@
     padding: 8px 12px;
     font-size: 1.2rem;
     cursor: pointer;
+}
+.kontener-maly-yen
+{
+    width: 250px;
+    border-radius: 10px;
+    margin:auto;
+}
+.charakterystyka-yen{
+    display:grid;
+    grid-template-columns: 35% 1fr;
+    gap:10px;
+    width: 100%;
 }
