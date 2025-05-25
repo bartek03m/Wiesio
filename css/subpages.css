@@ -1,0 +1,46 @@
+
+.hovertx
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hoverimg
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1
+{
+    text-align: center;
+}
+p
+{
+    font-size: medium;
+    text-align: justify;
+}
+q
+{
+    font-style: italic;
+}
+.podpis{
+    text-align:center;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+.nic{
+    display:none;
+}
