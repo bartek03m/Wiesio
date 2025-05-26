@@ -262,6 +262,6 @@ body.darkmode input:focus, body.darkmode select:focus,  body.darkmode textarea:f
         font-size: 0.7rem;
     }
     .drop_down_menu_content{
-        top: calc(100% + 10px);
+        top: calc(100% + 4px);
     }
 }
