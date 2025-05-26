@@ -136,12 +136,16 @@
     } 
     #slide
     {
-        width: 60%;
+        width: 70%;
     }
     .charakterystyka-yen{
         display:grid;
         grid-template-columns: 1fr;
         gap:10px;
         width: 100%;
+    }
+    .kontener-maly-yen
+    {
+        width: 50vw;
     }
 }

@@ -217,6 +217,14 @@ body.darkmode .spoiler.revealed
     }
     #slide
     {
-        width: 40%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .kontener-maly-leszy
+    {
+        width: 50vw;
     }
 }
