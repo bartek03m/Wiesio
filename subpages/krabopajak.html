@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiedźmin wiki</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/css/mainstyle.css">
+    <link rel="stylesheet" href="/css/subpages.css">
+    <link rel="stylesheet" href="/css/dodatkowe_potwory.css">
+    <link rel="stylesheet" href="/css/sopiler.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <script src="/js/dynamic_images.js"></script>
+    <script src="/js/slider_krabopajonk.js" defer></script>
+    <script src="/js/spoiler.js" defer></script>
+    <script src="/js/darkmode.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="/index.html">
+                <img src="/images/logo-lightmode.png" alt="Wiedźmin wiki logo" id="logo">
+            </a>
+        </header>
+        <nav>
+            <ul id="main_menu">
+                <li><a href="/index.html">Strona główna</a></li>
+                <li class="drop_down_menu">Potwory
+                    <ul class="drop_down_menu_content">
+                        <li><a href="/subpages/leszy.html">Leszy</a></li>
+                        <li><a href="/subpages/utopiec.html">Utopiec</a></li>
+                        <li><a href="/subpages/babawodna.html">Baba wodna</a></li>
+                        <li><a href="/subpages/dzikigon.html">Dziki Gon</a></li>
+                        <li><a href="/subpages/krabopajak.html">Krabopająk</a></li>
+                    </ul>
+                </li>
+                <li class="drop_down_menu">Postacie
+                    <ul class="drop_down_menu_content">
+                        <li><a href="/subpages/geralt.html">Geralt</a></li>
+                        <li><a href="/subpages/yennefer.html">Yennefer</a></li>
+                        <li><a href="/subpages/ciri.html">Ciri</a></li>
+                        <li><a href="/subpages/quiz.html">Quiz</a></li>
+                        <li><a href="/subpages/kontakt.html">Kontakt</a></li>
+                    </ul>
+                </li>
+                <li><a href="/subpages/quiz.html">Quiz</a></li>
+                <li><a href="/subpages/kontakt.html">Kontakt</a></li>
+                <li>
+                    <label for="toggle-darkmode" id="darkmode-label"> 
+                        Tryb ciemny
+                    </label>
+                    <input type="checkbox" id="toggle-darkmode">
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <hr>
+            <h1>Krabopająk</h1>
+                <figure class="kontener-maly-kp" id="kontener-kp">
+                    <div class="ograniczenie">
+                        <img src="/images/karabopajonk.png" alt="Krabopająk" class="zdjecie-male" id="zdjecie-kp">
+                    </div>
+                    <figcaption class="podpis" id="podpisKp">Zdjęcie Krabopająka z bestiariusza</figcaption>
+                </figure>            
+            <section>
+                <p>
+                    Krabopająki mają potężne przednie szczypce, zębatą paszczę i posiadają również gruczoł pełen jadu. Zazwyczaj do ich diety należą ludzie i zwierzęta gospodarkie.
+                    Dlatego krabopająki często są przedmiotem wiedźmińskich kontraktów. Krabopająki są inwazyjnym gatunkiem, który zawędrował na północ przystosowując się
+                    do ostrzejszego klimatu. Upodobały sobie wilgotne lasy i moczary. Należy do tej kategorii potworów, które hibernują na zimę.
+                </p>
+                <p>
+                    <q>N'arache aen woed endicen (Nie wywołuj krabopająka z lasu)</q> - elfickie przysłowie<br><br>
+                    <q>Pół krab, pół pająk. Słowem <span class="spoiler">*cenzura*.</span></q>- <span id="slideract">Karta do Gwinta🃏</span>
+                </p>
+            </section>
+            <section>
+                <h3>Taktyka</h3>
+                <p>
+                    Krabopająki mają specyficzny kolor któy pozwala im wtopić się w tło leśnego poszycia co pozwala daje im możliwość zakradnięcia się do niczego niespodziewającej się ofiary.
+                    Zazwyczaj zaczynają walkę plując jadem w przeciwnika. Mają też możliwość wystrzelenia sieci, która unieruchamia przeciwników dając im okazję na szarżę wprsot we wroga.
+                    W celach obronnych ma praę ogromnych twardych szczypiec, które niwelują większość otrzymywanych obrażeń z przodu.
+                </p>
+            </section>
+            <section>
+                <h3>występowanie</h3>
+                <ul>
+                    <li>lasy</li>
+                    <li>pustynie</li>
+                    <li>czasem jaskinie</li>
+                    <li>moczary</li>
+                </ul>
+                <h3>Klasyfikacja</h3>
+                <p>Insektoidy</p>
+                <h3>Odporność</h3>
+                <p>trucizna</p>
+            </section>
+        </main>
+        <footer>
+            <p>Stronę wykonali: Julia Michniewicz, Oliwier Góralczyk, Bartosz Majewski &copy;</p>
+        </footer>
+    </div>
+    <div id="slider">
+        <img id="slide" src="" alt="slajd" data-slider="krabopajak">
+        <p id="podpis-slider"></p>
+        <div id="nawigacja">
+            <button id="poprzednie">&larr;</button>
+            <button id="nastepne">&rarr;</button>
+         </div>
+    </div>
+   <script>
+        ToggleImgClass("#zdjecie-kp", "#kontener-kp", "#podpisKp", "zdjecie-male", "zdjecie-duze", "kontener-maly-kp", "kontener-duzy", "podpis");
+        ImgHover(".hovertx", ".hoverimg");
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#container {
+    min-height: calc(100vh - 1rem);
+}
+form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 30%;
+    margin: auto;
+    place-items: center;
+}
+form > *
+{
+    margin: auto 0.2rem;
+    width: 100%;
+}
+form > button
+{
+    width: 50%;
+}
+@media (max-width: 608px) {
+    form {
+        width: 90%;
+    }
+}

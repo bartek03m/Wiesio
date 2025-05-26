@@ -6,9 +6,8 @@
     <title>Wiedźmin wiki</title>
     <link rel="icon" href="/images/icon.png">
     <link rel="stylesheet" href="/css/mainstyle.css">
-    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/kontakt.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-    <script src="/js/homepage.js" defer></script>
     <script src="/js/darkmode.js" defer></script>
 </head>
 <body>
@@ -52,25 +51,16 @@
         <main>
             <hr>
             <section>
-                <h1>Witaj na Wiedźmin wiki!</h1>
-                <p>To jest strona, na której znajdziesz informacje o postaciach i potworach z uniwersum Wiedźmina. Możesz przeszukiwać naszą bazę danych, aby znaleźć interesujące Cię informacje.</p>
-            </section>
-            <section>
-                <h2>Wyszukaj postać lub potwora</h2>
-                <form>
-                    <label for="search_input">Wyszukaj:</label>
-                    <input type="search" id="search_input" placeholder="Szukaj">
-                    <label for="category">Kategoria:</label>
-                    <select id="category" name="category">
-                        <option value="wszystko">Wszystko</option>
-                        <option value="postacie">Postacie</option>
-                        <option value="potwory">Potwory</option>
-                    </select>
+                <h1>Skontaktuj się z nami i opisz swój pomysł na kolejny wpis w naszym Wiedzmin Wiki!</h1>
+                <form method="POST">
+                    <label for="name">Twoje imię:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Twój e-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="idea">Twój pomysł:</label><br>
+                    <textarea id="idea" name="idea" rows="5" required></textarea><br>
+                    <button type="submit">Wyślij</button>
                 </form>
-            </section>
-            <section>
-                <h2 style="text-align: center;">Wyniki wyszukiwania:</h2>
-                <div id="subpages_list"></div>
             </section>
         </main>
         <footer>

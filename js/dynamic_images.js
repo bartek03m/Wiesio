@@ -20,7 +20,6 @@ function ToggleImgClass(imageSelector, containerSelector, captionSelector, image
         caption.classList.toggle("nic");
     });
 }
-
 function ImgHover(textSelector, imageSelector)
 {
     const texts = document.querySelectorAll(textSelector);

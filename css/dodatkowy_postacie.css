@@ -109,3 +109,39 @@
     background-color: #000000;
     display:block;
 }
+@media (max-width: 1000px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main > *
+    {
+        width: 100%;
+    }
+    .kontener-maly-milosci
+    {
+        width: 60%;
+        float: none;
+        margin: auto;
+    }
+    .zdjecie-duze 
+    {
+        min-width: 40vw;
+        max-width: 50vw;
+        background-color: #000000;
+    } 
+    #slide
+    {
+        width: 60%;
+    }
+    .charakterystyka-yen{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:10px;
+        width: 100%;
+    }
+}

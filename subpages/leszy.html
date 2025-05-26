@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiedźmin wiki</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/css/mainstyle.css">
+    <link rel="stylesheet" href="/css/subpages.css">
+    <link rel="stylesheet" href="/css/dodatkowe_potwory.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <script src="/js/dynamic_images.js"></script>
+    <script src="/js/darkmode.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="/index.html">
+                <img src="/images/logo-lightmode.png" alt="Wiedźmin wiki logo" id="logo">
+            </a>
+        </header>
+        <nav>
+            <ul id="main_menu">
+                <li><a href="/index.html">Strona główna</a></li>
+                <li class="drop_down_menu">Potwory
+                    <ul class="drop_down_menu_content">
+                        <li><a href="/subpages/leszy.html">Leszy</a></li>
+                        <li><a href="/subpages/utopiec.html">Utopiec</a></li>
+                        <li><a href="/subpages/babawodna.html">Baba wodna</a></li>
+                        <li><a href="/subpages/dzikigon.html">Dziki Gon</a></li>
+                        <li><a href="/subpages/krabopajak.html">Krabopająk</a></li>
+                    </ul>
+                </li>
+                <li class="drop_down_menu">Postacie
+                    <ul class="drop_down_menu_content">
+                        <li><a href="/subpages/geralt.html">Geralt</a></li>
+                        <li><a href="/subpages/yennefer.html">Yennefer</a></li>
+                        <li><a href="/subpages/ciri.html">Ciri</a></li>
+                        <li><a href="/subpages/quiz.html">Quiz</a></li>
+                        <li><a href="/subpages/kontakt.html">Kontakt</a></li>
+                    </ul>
+                </li>
+                <li><a href="/subpages/quiz.html">Quiz</a></li>
+                <li><a href="/subpages/kontakt.html">Kontakt</a></li>
+                <li>
+                    <label for="toggle-darkmode" id="darkmode-label"> 
+                        Tryb ciemny
+                    </label>
+                    <input type="checkbox" id="toggle-darkmode">
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <hr>
+                <h1>Leszy (dziad borowy)</h1>
+                <figure class="kontener-maly-leszy" id="kontener-leszego">
+                    <div class="ograniczenie">
+                        <img src="/images/leszy1.jpg" alt="Leszy" class="zdjecie-male" id="zdjecie-leszego">
+                    </div>
+                    <figcaption class="podpis" id="podpisLeszy">Zdjęcie Leszego w naturalnym środowisku</figcaption>
+                </figure>
+            </section>
+            <section>
+                <p>
+                    Leszy jest skrajnie terytorialny, niezwykle cięzki do wytropienia i przebiegły. <br> Nie wiedzieć czemu, przez wielu chłopów uznawany za ducha lasu sprawującego opiekę.<br> W niektórych reginach nawet otaczane są swego rodzaju kultem.
+                    Istnieje wiele legend o tym jak pomaga wioskowym myśliwym naganiając zwierzynę, nic bardziej mylnego.<br> Leszy w człowieku widzi tylko źródło energii, którą się żywi. Posaida zdonlość do polimorfii, najczęściej przyjmując postać
+                    żbika lub wilka. Kontroluje żyjące na jego terenie zwierzęta i roślinność.
+                </p>
+                <q>
+                    "I było to coś, co żyło tylko po to, by zabijać. Z głodu, dla przyjemności, powodowane czyjąć chorobliwą wolą, z innych przyczyn." <br>- Ostatnie życzenie, str.65<br><br>
+                    "W tym lesie lesie się nie poluje. Nigdy. Choćby wieś umierała z głodu"<span class="hovertx"> - Karta do Gwinta🃏<img src="/images/Leszygwint.jpg" alt="LeszyGwint" class="hoverimg"></span>
+                </q>
+            </section>
+            <section>
+                <h3>Taktyka</h3>
+                <p>
+                    niektóre osobniki potrafią wznosić magiczne totemy, często chronione przez pobliskie zwierzęta, które czynią je silniejszymi.
+                    Często pod postacią zwierzęcia atakują ofiarę z zaskoczenia rozwrywając jej gardło. Leszy w starciu wykorzystuje nie tylko swoje okropnie długie szpony, ale i zwierzęcych sojuszników takich jak wilki i kruki które przeszkadzają
+                    atakującym go przeciwników.
+                </p>
+            </section>
+            <section>
+                <h3>występowanie</h3>
+                <ul>
+                    <li>puszcze</li>
+                    <li>bory</li>
+                    <li>niedostępne mateczniki leśne</li>
+                    <li>prastare lasy</li>
+                </ul>
+                <h3>Klasyfikacja</h3>
+                <p>Relikty</p>
+                <h3>Odporność</h3>
+                <p>Żelazo</p>
+            </section>
+        </main>
+        <footer>
+            <p>Stronę wykonali: Julia Michniewicz, Oliwier Góralczyk, Bartosz Majewski &copy;</p>
+        </footer>
+    </div>
+   <script>
+        ToggleImgClass("#zdjecie-leszego", "#kontener-leszego", "#podpisLeszy", "zdjecie-male", "zdjecie-duze", "kontener-maly-leszy", "kontener-duzy", "podpis");
+        ImgHover(".hovertx", ".hoverimg");
+    </script>
+</body>
+</html> 
