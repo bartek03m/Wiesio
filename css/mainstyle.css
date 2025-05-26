@@ -132,6 +132,29 @@ footer p{
     width: 60%;
     padding: 1rem;
 }
+label {
+    font-family: 'MedievalSharp', serif;
+    font-size: 1.1rem;
+    color: #4a3e2a;
+}
+input, select, button, textarea {
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    border: 3px solid #9f9872;
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+}
+input::placeholder {
+    font-style: italic;
+}
+input:focus, select:focus, textarea:focus, button:hover {
+    border-color: #9c7f17;
+}
+select {
+    cursor: pointer;
+    appearance: none;
+}
 /* dark mode */
 #toggle-darkmode {
     display: none;
@@ -198,6 +221,22 @@ body.darkmode hr {
 body.darkmode #main_menu > li:last-child {
     border-right: none;
 }
+body.darkmode label {
+    color: #e9d19c;
+}
+body.darkmode input, body.darkmode select, body.darkmode textarea, body.darkmode button {
+    border: 3px solid #e9d19c;
+    background-color: #000000;
+    color: #e9d19c;
+}
+body.darkmode input::placeholder {
+    color: #b5a06d;
+}
+body.darkmode input:focus, body.darkmode select:focus,  body.darkmode textarea:focus, body.darkmode button:hover {
+    border-color: #9e8c64;
+}
+
+
 @media (max-width: 945px) {
     #container{
         grid-template-columns: 0fr 1fr;
