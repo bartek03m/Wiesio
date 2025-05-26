@@ -1,0 +1,54 @@
+{
+  "pytania": [
+    {
+      "pytanie": "O kim jest piosenka 'Wilcza zamieć'?",
+      "odpowiedzi": ["O zimie", "O wilkach", "O Geralcie i Yennefer", "O Geralcie i Jaskrze"],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak brzmi pełne imię Jaskra?",
+      "odpowiedzi": [
+        "Juliusz Alfons Paweł, hrabia Monte Christo",
+        "Julian Alfred Pankratz, wicehrabia de Lettenhove",
+        "Juliusz Amadeusz Pablo, wicehrabia de Lettenhove",
+        "Julian Alfred Parabola, baron Velen"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak nazywa się koń Geralta?",
+      "odpowiedzi": ["Płotka", "Szprotka", "Gotka", "Lotka"],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Z jakiej szkoły wiedźmińskiej pochodzi Geralt z Rivii?",
+      "odpowiedzi": ["Kota", "Gryfa", "Wilka", "Mantikory"],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co najlepiej rymuje się ze słowem 'wiedźmina'?",
+      "odpowiedzi": ["Mina", "Dziewczyna", "Wołowina", "Lawina"],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co Talar robił z trollami?",
+      "odpowiedzi": ["Gotował zupę z elfów i cebuli", "Interesy", "Nic", "Uczył je przeklinać"],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak nazywała się koza guślarza?",
+      "odpowiedzi": ["Królewna", "Księżniczka", "Hrabina", "Królowa"],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Co Yennefer robiła na pogrzebie?",
+      "odpowiedzi": ["Pięknie pachniała", "Płakała", "Nie była na żadnym pogrzebie", "Składała kwiaty"],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Kto to 'czarni'?",
+      "odpowiedzi": ["Nilfgaardczycy", "Temerczycy", "Aedirnczycy", "Redańczycy"],
+      "poprawna_odpowiedz": 0
+    }
+  ]
+}

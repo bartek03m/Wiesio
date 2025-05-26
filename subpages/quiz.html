@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/kontakt_quiz.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <script src="/js/darkmode.js" defer></script>
+    <script src="/js/quiz.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -51,16 +52,12 @@
         <main>
             <hr>
             <section>
-                <h1>Skontaktuj się z nami i opisz swój pomysł na kolejny wpis w naszym Wiedzmin Wiki!</h1>
-                <form method="POST">
-                    <label for="name">Twoje imię:</label><br>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email">Twój e-mail:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="idea">Twój pomysł:</label><br>
-                    <textarea id="idea" name="idea" rows="5" required></textarea><br>
-                    <button type="submit">Wyślij</button>
-                </form>
+                <h1>Quiz o uniwersum Wiedzmina</h1>
+                <p id="pytanie"></p>
+                <div class="odpowiedz" id="a"></div>
+                <div class="odpowiedz" id="b"></div>
+                <div class="odpowiedz" id="c"></div>
+                <div class="odpowiedz" id="d"></div>
             </section>
         </main>
         <footer>
