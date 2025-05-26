@@ -2,7 +2,7 @@ let zdj=[];
 let aktualne_zdj=0;
 const slajd=document.querySelector("#slide");
 const podpis=document.querySelector("#podpis-slider")
-fetch('/data/slider.json')
+fetch('../data/slider.json')
     .then(response => response.json())
     .then(data => {
         zdj=data[slajd.dataset.slider];

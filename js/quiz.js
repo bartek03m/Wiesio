@@ -6,7 +6,7 @@ const D = document.querySelector("#d");
 let aktualnePytanie = 0;
 let punkty = 0;
 
-fetch('/data/quiz.json')
+fetch('../data/quiz.json')
     .then(response => response.json())
     .then(data => {
         const quiz = data.pytania;

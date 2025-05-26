@@ -4,7 +4,7 @@ const subpages_list_container = document.querySelector("#subpages_list");
 
 let subpages = [];
 
-fetch('/data/db.json')
+fetch('../data/db.json')
     .then(response => response.json())
     .then(data => {
         subpages = data.subpages;
