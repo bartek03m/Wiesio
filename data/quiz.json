@@ -2,7 +2,12 @@
   "pytania": [
     {
       "pytanie": "O kim jest piosenka 'Wilcza zamieć'?",
-      "odpowiedzi": ["O zimie", "O wilkach", "O Geralcie i Yennefer", "O Geralcie i Jaskrze"],
+      "odpowiedzi": [
+        "O zimie",
+        "O wilkach",
+        "O Geralcie i Yennefer",
+        "O Geralcie i Jaskrze"
+      ],
       "poprawna_odpowiedz": 2
     },
     {
@@ -17,38 +22,1097 @@
     },
     {
       "pytanie": "Jak nazywa się koń Geralta?",
-      "odpowiedzi": ["Płotka", "Szprotka", "Gotka", "Lotka"],
+      "odpowiedzi": [
+        "Płotka",
+        "Szprotka",
+        "Gotka",
+        "Lotka"
+      ],
       "poprawna_odpowiedz": 0
     },
     {
       "pytanie": "Z jakiej szkoły wiedźmińskiej pochodzi Geralt z Rivii?",
-      "odpowiedzi": ["Kota", "Gryfa", "Wilka", "Mantikory"],
+      "odpowiedzi": [
+        "Kota",
+        "Gryfa",
+        "Wilka",
+        "Mantikory"
+      ],
       "poprawna_odpowiedz": 2
     },
     {
       "pytanie": "Co najlepiej rymuje się ze słowem 'wiedźmina'?",
-      "odpowiedzi": ["Mina", "Dziewczyna", "Wołowina", "Lawina"],
+      "odpowiedzi": [
+        "Mina",
+        "Dziewczyna",
+        "Wołowina",
+        "Lawina"
+      ],
       "poprawna_odpowiedz": 2
     },
     {
       "pytanie": "Co Talar robił z trollami?",
-      "odpowiedzi": ["Gotował zupę z elfów i cebuli", "Interesy", "Nic", "Uczył je przeklinać"],
+      "odpowiedzi": [
+        "Gotował zupę z elfów i cebuli",
+        "Interesy",
+        "Nic",
+        "Uczył je przeklinać"
+      ],
       "poprawna_odpowiedz": 3
     },
     {
       "pytanie": "Jak nazywała się koza guślarza?",
-      "odpowiedzi": ["Królewna", "Księżniczka", "Hrabina", "Królowa"],
+      "odpowiedzi": [
+        "Królewna",
+        "Księżniczka",
+        "Hrabina",
+        "Królowa"
+      ],
       "poprawna_odpowiedz": 1
     },
     {
       "pytanie": "Co Yennefer robiła na pogrzebie?",
-      "odpowiedzi": ["Pięknie pachniała", "Płakała", "Nie była na żadnym pogrzebie", "Składała kwiaty"],
+      "odpowiedzi": [
+        "Pięknie pachniała",
+        "Płakała",
+        "Nie była na żadnym pogrzebie",
+        "Składała kwiaty"
+      ],
       "poprawna_odpowiedz": 0
     },
     {
       "pytanie": "Kto to 'czarni'?",
-      "odpowiedzi": ["Nilfgaardczycy", "Temerczycy", "Aedirnczycy", "Redańczycy"],
+      "odpowiedzi": [
+        "Nilfgaardczycy",
+        "Temerczycy",
+        "Aedirnczycy",
+        "Redańczycy"
+      ],
       "poprawna_odpowiedz": 0
+    }
+  ],
+  "po": [
+    {
+      "pytanie": "Który z poniższych przykładów ilustruje poprawną deklarację pola w klasie MyClass?",
+      "odpowiedzi": [
+        "public class MyClass private int value {} }",
+        "public class MyClass { private int value(); }",
+        "public class MyClass { private int value() { return 0; } }",
+        "public class MyClass { private int value; }"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co zostanie utworzone w języku C# wskutek działania poniższej instrukcji? new Liczba[10]",
+      "odpowiedzi": [
+        "Tablica o rozmiarze 10 wypełniona kopiami tego samego obiektu klasy Liczba",
+        "Tablica o rozmiarze 10 typu referencja na Liczbę",
+        "Obiekt klasy liczba zainicjowany na wartość 10",
+        "Tablica zawierająca 10 obiektów klasy Liczba"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Które z poniższych stwierdzeń o metodach statyczny jest prawdziwe?",
+      "odpowiedzi": [
+        "Metody statyczne mogą być wywoływane bez tworzenia instancji klasy",
+        "Metody statyczne mogą jedynie odczytywać stan obiektu, ale nie mogą go zmieniać",
+        "Metody statyczne zawsze są publiczne",
+        "Metody statyczne nie mogą mieć żadnych parametrów"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co zostanie utworzone w języku C# wskutek działania poniższej instrukcji? new Liczba[10]",
+      "odpowiedzi": [
+        "Tylko pola prywatne oraz kod metod klasy",
+        "Pola i metody zdefiniowane w klasie",
+        "Wszystkie pola typu referencyjnego w klasie",
+        "Tylko metody publiczne zdefiniowane w klasie"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak uzyskać długość łańcucha znaków w języku Java?",
+      "odpowiedzi": [
+        "Używając operatora sizeof str",
+        "Używając właściwości Count, np. str.Count",
+        "Używając funkcji strlen(str)",
+        "Używając metody length(), np. str.length()"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym jest konstruktor kopiujący?",
+      "odpowiedzi": [
+        "To konstruktor, który tworzy nowy obiekt w obszarze pamięci już zajmowanym przez inny obiekt",
+        "To konstruktor, który zwraca kopię bieżącego obiektu",
+        "To konstruktor, który inicjuje nowy obiekt jako kopię już istniejącego",
+        "To konstruktor, który tworzy kopię klasy bazowej w klasie pochodnej"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak w jezyku C# wypisuje się tekst na standardowe wyjście?",
+      "odpowiedzi": [
+        "Console.WriteLine(\"tekst\");",
+        "print(\"tekst\");",
+        "console.log(\"tekst\");",
+        "System.out.println(\"tekst\");"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Do czego stosowany jest blok `finally`?",
+      "odpowiedzi": [
+        "Do kontroli, czy wyjątek, który wystąpił, nie spowodował niespójności w obszarze danych.",
+        "Do wykonywania kodu sprzątającego, takiego jak zamykanie plików czy, zwalnianie zasobów.",
+        "Do zachowywania informacji o bieżącym stanie programu, aby móc go odtworzyć po jego ponownym uruchomieniu.",
+        "Do ponawiania przerwanej wystąpienie wyjątku akcji, po prawidłowym jego obsłużeniu."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jakie są kroki do obsługi wyjątku zgłoszonego przez metodę w Javie?",
+      "odpowiedzi": [
+        "Użyć instrukcji pętli, by ponawiać próbę wykonania metody, dopóki błąd nie zostanie usunięty.",
+        "Przy pomocy metody addExceptionListener wskazać procedurę obsługi błędu, a w razie jego wystąpienia podjąć odpowiednie działania.",
+        "Użyć słowa kluczowego finalize w metodzie, aby przechwycić wyjątek i zdecydować o odpowiednich działaniach.",
+        "Użyć bloku try-catch wokół wywołania metody, aby przechwycić wyjątek i podjąć odpowiednie działania w bloku catch."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak w C++ definiuje się konstruktor kopiujący klasy MyClass?",
+      "odpowiedzi": [
+        "MyClass(int value) {}",
+        "MyClass(const MyClass& other) {}",
+        "MyClass(MyClass other) {}",
+        "MyClass() {}"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak w C++ wywołać metodę display() z obiektu stworzonego jak poniżej? MyClass* obj = new MyClass();",
+      "odpowiedzi": [
+        "obj.display();",
+        "display(obj);",
+        "obj->display();",
+        "obj::display();"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest pamięć typu stos?",
+      "odpowiedzi": [
+        "Obszar pamięci używany do przechowywania dynamicznie alokowanych obiektów.",
+        "Obszar pamięci używany do przechowywania zmiennych lokalnych i informacji o wywołaniach funkcji.",
+        "Obszar pamięci używany do przechowywania stałych i globalnych zmiennych.",
+        "Obszar pamięci zarezerwowany dla systemu operacyjnego."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Na czym polega specyfikacja wyjątków w Javie?",
+      "odpowiedzi": [
+        "Na rozpoznawaniu typu przechowyconego wyjątku przy pomocy mechanizmu RTTI.",
+        "Na użyciu słowa kluczowego `catch` w kodzie metody, aby określić, jaki typ wyjątku chcemy obsłużyć.",
+        "Na użyciu słowa kluczowego `throws` w deklaracji metody, aby wskazać, jakie typy wyjątków metoda może zgłosić.",
+        "Na definiowaniu nowych klas wyjątków, aby móc raportować o specyficznych typach wyjątków mogących wystąpić w systemie."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Który z poniższych przykładów pokazuje poprawne użycie pętli foreach w Javie?",
+      "odpowiedzi": [
+        "for (String item : array) { System.out.println(item); }",
+        "foreach (int i = 0; i < array.length; i++) { System.out.println(array[i]); }",
+        "for (int i < array.length) { System.out.println(array[i]); }",
+        "for each String item in array { System.out.println(item); }"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym jest metoda abstrakcyjna w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To metoda, która może być wywoływana tylko z wewnątrz klasy, w której została zadeklarowana.",
+        "To metoda zadeklarowana bez implementacji, która musi zostać nadpisana przez klasy dziedziczące.",
+        "To metoda, która nie może być nadpisana w klasie pochodnej potomnej.",
+        "To metoda, która może być wywoływana bez tworzenia instancji klasy."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak w C++ definiuje się destruktor klasy MyClass?",
+      "odpowiedzi": [
+        "~MyClass() {}",
+        "MyClass(const MyClass& other) {}",
+        "MyClass() {}",
+        "~MyClass(const MyClass& other) {}"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym charakteryzuje się struktura danych typu LIFO (lub FILO)?",
+      "odpowiedzi": [
+        "Jest to struktura danych, w której pierwszy element do niej dodany jest pierwszym, który zostanie usunięty.",
+        "Jest to struktura danych, do której możemy wstawiać elementy w dowolne miejsce, natomiast musimy usuwać po kolei.",
+        "Jest to struktura danych, z której możemy usuwać elementy w dowolnej kolejności, natomiast dodawać możemy jedynie na koniec.",
+        "Jest to struktura danych, w której ostatni element do niej dodany jest pierwszym, który zostanie usunięty."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co to jest wielodziedziczenie w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To mechanizm, który pozwala klasie dziedziczyć właściwości i metody z więcej niż jednej klasy bazowej.",
+        "To technika, w której wiele klas ma wspólną klasę bazową, co pozwala na operowanie nimi przez wspólny interfejs.",
+        "To mechanizm, który pozwala na dziedziczenie dwukierunkowe, w którym klasa bazowa może przejmować składowe klasy pochodnej.",
+        "To technika, w której klasa dziedzicząca z jednej klasy, jest jednocześnie klasą bazwoą dla kolejnej klasy."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co możemy zrobić, jeśli metoda, którą wywołujemy, zgłosiła wyjątek?",
+      "odpowiedzi": [
+        "Powinniśmy wypisać komunikat i zakończyć działanie programu.",
+        "Powinniśmy zignorować wyjątek, aby zajął się nim moduł nadrzędny.",
+        "Powinniśmy przechwycić i obsłużyć wyjątek.",
+        "Możemy przechwycić i obsłużyć wyjątek lub zignorować go, aby zajął się nim moduł nadrzędny."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym jest konstruktor domyślny?",
+      "odpowiedzi": [
+        "Konstruktorem, który nie inicjuje pól obiektu.",
+        "Konstruktorem używanym, gdy nie może być wywołany żaden inny konstruktor.",
+        "Konstruktorem inicjującym wszystkie pola na wartości zerowe.",
+        "Konstruktorem bez parametrów."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jakie są zasady wywoływania konstruktorów w dziedziczeniu?",
+      "odpowiedzi": [
+        "Konstruktor klasy bazowej jest ignorowany w dziedziczeniu.",
+        "Konstruktor klasy bazowej i pochodnej wykonują się jednocześnie.",
+        "Konstruktor klasy bazowej wykonuje się przed konstruktorem klasy pochodnej.",
+        "Konstruktor klasy pochodnej jest wywoływany przed konstruktorem klasy bazowej."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest dziedziczenie w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To mechanizm, który pozwala jednej klasie przejmować właściwości i zachowanie innej klasy.",
+        "To mechanizm, który pozwala tworzyć kopie głębokie istniejących obiektów.",
+        "To mechanizm, który pozwala na konwertowanie obiektów jednej klasy na obiekty innych klas.",
+        "To mechanizm, który pozwala dynamicznie (w trakcie wykonywania programu) dołączać do obiektów nowe składowe."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym jest interfejs klasy?",
+      "odpowiedzi": [
+        "Referencją na instancję klasy.",
+        "Zbiorem publicznych metod i właściwości dostępnych dla użytkownika klasy.",
+        "Szczegółowym kodem definiującym, jak działają metody i właściwości klasy.",
+        "Zbiorem automatycznych i dynamicznych pól klasy."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czy w relacji kompozycji można wywoływać metody komponentów z poziomu klasy zawierającej?",
+      "odpowiedzi": [
+        "Tak, kompozyt ma dostęp zarówno do publicznych jak i prywatnych metod komponentów.",
+        "Nie, kompozyt ma dostęp jedynie do pól komponentów.",
+        "Tak, ale wyłącznie publiczne metody komponentów.",
+        "Nie, komponenty same wywołują swoje metody."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jakie są korzyści z rzutowania w górę?",
+      "odpowiedzi": [
+        "Możemy zlecać nadrzędnym modułom obsługę naszych wyjątków.",
+        "Możemy przechowywać w jednej kolekcji typu bazowego obiekty różnych klas pochodnych.",
+        "Możemy zmniejszać zajętość pamięci poprzez konwersję obiektów na typ bazowy.",
+        "Możemy wywoływać metody innej klasy bez konieczności dziedziczenia."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak zdefiniować typ generyczny w Javie lub C#?",
+      "odpowiedzi": [
+        "Używamy typu Object do definiowania pól oraz parametrów metod klasy.",
+        "Używamy słowa kluczowego generic przed nazwą klasy.",
+        "Używamy nawiasów ostrych z parametrem typu <T> po nazwie klasy.",
+        "Używamy specjalnego typu danych GenericType jako klasy bazowej."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jakie są korzyści z używania typów generycznych?",
+      "odpowiedzi": [
+        "Pozwala to na tworzenie hierarchii klas z jasno zdefiniowanym wspólnym interfejsem.",
+        "Pozwala to na tworzenie bardziej elastycznego i wielokrotnego użytku kodu, który może działać z różnymi typami danych.",
+        "Pozwala to na przechowywanie odniesień do obiektów bez zapobiegania ich usunięciu przez system zarządzania pamięcią.",
+        "Pozwala to na izolowanie testowanego kodu od jego zależności zewnętrznych, co przyspiesza wykonanie testów."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Do czego służy słowo kluczowe base w C#?",
+      "odpowiedzi": [
+        "Jest używane w klasie pochodnej do odwoływania się do składowych klasy bazowej.",
+        "Jest używane do odwoływania się do globalnego konteksu (np. zmiennych globalnych).",
+        "Jest używane do odwoływania się do składowych statycznych.",
+        "Jest używane, aby wykonać bezpieczne rzutowanie w górę."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Kiedy możemy bezpiecznie rzutować w dół?",
+      "odpowiedzi": [
+        "Gdy typ na który chcemy rzutować jest typem bazowym typu, z którego rzutujemy.",
+        "Gdy pod zmienną typu bazowego rzeczywiście znajduje się instancja typu klasy pochodnej.",
+        "Rzutowanie w dół jest zawsze bezpieczne, gdyż jego poprawność jest kontrolowana przez kompilator.",
+        "Gdy typ na który chcemy rzutować dziedziczy z typu, z którego rzutujemy."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak w C++ zadeklarować publiczne pole int o nazwie value w klasie MyClass?",
+      "odpowiedzi": [
+        "class MyClass { public: int value; };",
+        "class MyClass { public int value; };",
+        "class MyClass { int value : public; };",
+        "class MyClass { int public value; };"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym jest implementacja klasy?",
+      "odpowiedzi": [
+        "Adresem pod jakim znajduje się kod metod klasy.",
+        "Adresem pod jakim znajdują się wartości pól klasy.",
+        "Zbiorem publicznych metod i właściwości dostępnych dla użytkownika klasy.",
+        "Szczegółowym kodem źródłowym definiującym, jak działają metody i właściwości klasy."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym jest nadpisanie metody w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Sytuacja, gdy klasa pochodna definiuje metodę o tej samej nazwie, co metoda w klasie bazowej, ale o innej liczbie lub typie parametrów.",
+        "Sytuacja, gdy klasa pochodna dostarcza własną implementację metody, która została zadeklarowana w klasie bazowej.",
+        "Sytuacja, gdy klasa pochodna dodaje nową metodę, która nie istnieje w klasie bazowej.",
+        "Sytuacja, gdy klasa pochodna obniża poziom dostępu do metody odziedziczonej z klasy bazowej (np. z public na private)."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak w Javie klasa pochodna może wywołać nadpisaną metodę z klasy bazowej?",
+      "odpowiedzi": [
+        "Używając słowa kluczowego super, np. super.myMethod().",
+        "Używając słowa kluczowego super, np. myMethod(super).",
+        "Klasa pochodna nie może wywołać nadpisanej metody z klasy bazowej.",
+        "Używając słowa kluczowego super, np. super()."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym różni się agregacja od kompozycji właściwej?",
+      "odpowiedzi": [
+        "Kompozycja dotyczy wyłącznie dziedziczenia, a agregacja wyłącznie implementacji.",
+        "W kompozycji komponenty są integralną częścią obiektu, a w agregacji mogą istnieć niezależnie.",
+        "Agregacja dotyczy wyłącznie dziedziczenia, a kompozycja wyłącznie implementacji.",
+        "W agregacji komponenty są integralną częścią obiektu, a w kompozycji mogą istnieć niezależnie."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Co łatwiej zmieniać w programowaniu obiektowym: interfejs czy implementację?",
+      "odpowiedzi": [
+        "Implementację, ponieważ zmiana interfejsu może pociągać za sobą zmianę modułów, które z niego korzystają.",
+        "Interfejs, ponieważ klasa może mieć wiele interfejsów.",
+        "Interfejs, ponieważ zmiana implementacji oznacza modyfikowania kodu metod",
+        "Implementację, ponieważ wymaga ona jedynie zmiany struktury, a nie sposobu działania metod klasy."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co to jest język wysokiego poziomu?",
+      "odpowiedzi": [
+        "Język programowania, który jest trudniejszy do zrozumienia przez człowieka i bardziej zbliżony do języka maszynowego.",
+        "Język programowania, który jest bardziej zbliżony do języka naturalnego i łatwiejszy do zrozumienia przez człowieka.",
+        "Język programowania używany wyłącznie do tworzenia systemów operacyjnych.",
+        "Język programowania wykorzystujący skomplikowane modele oparte na sztucznej inteligencji."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak w C++ wczytuje się dane ze standardowego wejścia?",
+      "odpowiedzi": [
+        "std::cin << zmienna;",
+        "std::cout << zmienna;",
+        "std::cout >> zmienna;",
+        "std::cin >> zmienna;"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym są klasy generyczne w C# lub Javie?",
+      "odpowiedzi": [
+        "To klasy, które symulują zachowanie prawdziwej klasy w kontrolowany sposób, używane w testach jednostkowych.",
+        "To klasy, które mogą działać z dowolnym typem danych, określanym w momencie tworzenia instancji tej klasy.",
+        "To klasy, które są kompilowane do kodu natywnego w celu uzyskania lepszej wydajności w aplikacjach.",
+        "To klasy, które nie mogą być instancjonowane i służą do definiowania wspólnych cech i zachowań, które mają być dziedziczone przez inne klasy."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym są wyrażenia lambda?",
+      "odpowiedzi": [
+        "Wyrażenia lambda to narzędzia do automatycznego generowania dokumentacji dla klas i metod w projekcie.",
+        "Wyrażenia lambda to krótkie, anonimowe funkcje, które można definiować w miejscu i przekazywać jako argumenty do innych funkcji.",
+        "Wyrażenia lambda to specjalne metody, które pozwalają na zmianę działania standardowych operatorów.",
+        "Wyrażenia lambda to specjalne struktury danych, które są używane do cache'owania wyników obliczeń matematycznych w programie."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest metoda final w Javie?",
+      "odpowiedzi": [
+        "To metoda, której nie można nadpisać w klasie pochodnej.",
+        "To metoda, która może być wywoływana tylko raz.",
+        "To metoda, która nie może być przeciążona.",
+        "To metoda, która musi być nadpisana w klasie pochodnej."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym jest polimorfizm w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Polimorfizm to proces, w którym klasa przejmuje właściwości i metody innej klasy.",
+        "Polimorfizm to zdolność obiektów różnych klas do bycia traktowanymi jako obiekty klasy bazowej poprzez wspólny interfejs.",
+        "Polimorfizm to zdolność obiektu do zmiany swojej klasy w czasie wykonania.",
+        "Polimorfizm to mechanizm, ktory zapewnia automatyczne zwalnianie pamięci zajmowanej przez nieużywane obiekty."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest klasa bazowa w dziedziczeniu?",
+      "odpowiedzi": [
+        "Klasą, której instancji nie możemy bezpośrednio utworzyć.",
+        "Klasą, której właściwości i metody są przejmowane przez inną klasę.",
+        "Klasą, która nie posiada żadnych właściwości ani metod.",
+        "Klasa, która przejmuje właściwości i metody z innej klasy."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest stan obiektu?",
+      "odpowiedzi": [
+        "Stan obiektu to zbiór jego publicznych metod.",
+        "Stan obiektu to typ klasy, z której obiekt pochodzi.",
+        "Stan obiektu to jego lokalizacja w pamięci.",
+        "Stan obiektu to zbiór wartości jego pól w danym momencie."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak w Javie deklaruje się klasę pochodną, która dziedziczy z klasy bazowej?",
+      "odpowiedzi": [
+        "public class Derived inherits Base {}",
+        "public class Derived extends Base {}",
+        "public class Derived implements Base {}",
+        "public class Derived derives Base {}"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest pamięć typu sterta?",
+      "odpowiedzi": [
+        "Obszar pamięci, w którym przechowywane są zmienne lokalne i parametry funkcji.",
+        "Obszar pamięci używany do przechowywania kodu programu.",
+        "Obszar pamięci używany do przechowywania informacji o błędach.",
+        "Obszar pamięci używany do dynamicznego przydzielania pamięci w czasie działania programu."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak w języku C++ zadeklarować metodę wirtualną?",
+      "odpowiedzi": [
+        "Należy zadeklarować sam nagłówek metody, bez ciała, w klasie bazowej.",
+        "Wszystkie metody w C++ są domyślnie wirtualne.",
+        "Należy dodać słowo kluczowe virtual przed deklaracją metody w klasie pochodnej.",
+        "Należy dodać słowo kluczowe virtual przed deklaracją metody w klasie bazowej."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jaki jest skutek rzucenia wyjątku?",
+      "odpowiedzi": [
+        "Natychmiastowe zakończenie działania programu z wyświetleniem informacji o rodzaju wyjątku.",
+        "Ponowna próba wykonania kodu, który spowodował wystąpienie wyjątku.",
+        "Zgłoszenie wyjątku do obsługi i kontynuowanie wykonywania programu od miejsca w którym wystąpił wyjątek.",
+        "Przerwanie wykonania programu i rozpoczęcie poszukiwania bloku, który może obsłużyć ten wyjątek."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym jest referencja w programowaniu?",
+      "odpowiedzi": [
+        "Adres, pod któmym znajdują się argumenty przekazane do funkcji.",
+        "Alternatywna nazwa dla zmiennej, która pozwala na dostęp do tej samej wartości w pamięci.",
+        "Ogólna nazwa wskazania na wykonywalny kawałek kodu (np. funkcja, metoda, delegat).",
+        "Kontekt w którym wykonywana jest dana metoda (np. instancja konkretnego obiektu)."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest konstruktor kopiujący?",
+      "odpowiedzi": [
+        "To konstruktor, który tworzy kopię klasy bazowej w klasie pochodnej.",
+        "To konstruktor, który zwraca kopię bieżącego obiektu.",
+        "To konstruktor, który inicjuje nowy obiekt jako kopię już istniejącego.",
+        "To konstruktor, który tworzy nowy obiekt w obszarze pamięci już zajmowanym przez inny obiekt."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co oznacza słowo kluczowe package w Javie?",
+      "odpowiedzi": [
+        "Umożliwia deklarowanie zmiennych globalnych w programie.",
+        "Grupuje powiązane klasy i interfejsy, ułatwiając zarządzanie kodem.",
+        "Definiuje nowy typ danych, zawierajacy jedynie pola, ale nie metody.",
+        "Pozwala na zmniejszenie rozmiaru plików wynikowych poprzez automatyczną kompresję kodu."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jaka jest rola destruktora w C++ w kompozycji?",
+      "odpowiedzi": [
+        "Destruktor klasy zawierającej powinien zablokować niszczenie obiektu, jeśli obiekty komponentów nie zostały jeszcze usunięte.",
+        "Destruktor powinien ustawić wszystkie pola typu wskaźnikowego na wartość NULL.",
+        "W C++ destruktor klasy zawierającej nie ma wpływu na obiekty komponentów.",
+        "Destruktor klasy zawierającej odpowiada za usunięcie wszystkich obiektów komponentów."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak uzyskać długość łańcucha znaków w języku Java?",
+      "odpowiedzi": [
+        "Używając właściwości Count, np. str.Count;",
+        "Używając operatora sizeof str;",
+        "Używając metody length(), np. str.length();",
+        "Używając funkcji strlen(str);"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jakim rodzajem błędów zajmuje się mechanizm wyjątków w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Mechanizm wyjątków zajmuje się błędami kompilacji, które występują podczas kompilacji programu.",
+        "Mechanizm wyjątków zajmuje się błędami logicznymi, które występują w kodzie źródłowym programu.",
+        "Mechanizm wyjątków zajmuje się błędami syntaktycznymi, które wynikają z niepoprawnej składni kodu.",
+        "Mechanizm wyjątków zajmuje się błędami czasu wykonania (runtime errors), które mogą wystąpić podczas działania programu."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym jest czas życia obiektu?",
+      "odpowiedzi": [
+        "Okresem od momentu utworzenia obiektu do momentu jego usunięcia z pamięci.",
+        "Okresem od momentu kompilacji programu do momentu jego uruchomienia.",
+        "Okresem od momentu deklaracji klasy do momentu jej użycia.",
+        "Okresem od momentu wywołania metody do momentu jej zakończenia."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym jest garbage collector?",
+      "odpowiedzi": [
+        "To mechanizm optymalizacji kodu poprzez usuwanie zbędnych metod.",
+        "To mechanizm umożliwiający ręczne zarządzanie pamięcia procesu.",
+        "To mechanizm automatycznie zwalniający nieużywane obiekty.",
+        "To mechanizm optymalizacji kodu poprzez usuwanie zbędnych klas."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym są szablony w C++?",
+      "odpowiedzi": [
+        "To mechanizm umożliwiający tworzenie funkcji i klas, które mogą działać z różnymi typami danych.",
+        "To narzędzia służące do automatycznej kompilacji kodu i wdrażania projektu.",
+        "To procedury służące do definiowania układu i ustawień stylu interfejsów graficznych.",
+        "To specjalne typy danych używane do zarządzania pamięcią dynamiczną i niszczenia nieużywanych obiektów."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co oznacza dziedziczenie typu w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Oznacza, że obiekt klasy bazowej jest jednocześnie obiektem klasy pochodnej.",
+        "Oznacza, że obiekt klasy pochodnej może zostać przekształcony w obiekt klasy bazowej.",
+        "Oznacza, że obiekt klasy bazowej może zostać przekształcony w obiekt klasy pochodnej.",
+        "Oznacza, że obiekt klasy pochodnej jest jednocześnie obiektem klasy bazowej."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak w C++ przeciążyć operator + dla klasy MyClass?",
+      "odpowiedzi": [
+        "MyClass operator+(const MyClass& a);",
+        "MyClass operator+(const MyClass& a, const MyClass& b);",
+        "void operator+(const MyClass& a);",
+        "void operator+(const MyClass& a, const MyClass& b);"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym jest metoda wirtualna w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To metoda, która jest dostępna tylko wewnątrz klasy, w której została zadeklarowana.",
+        "To metoda, która nie może być nadpisana w klasie pochodnej.",
+        "To metoda, która zawsze jest wywoływana statycznie, bez względu na typ obiektu.",
+        "To metoda, która może być nadpisana w klasie pochodnej."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym jest hermetyzacja w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Zasadą tworzenia nowych klas składających się z klas już istniejących.",
+        "To mechanizm, który pozwala jednej klasie przejmować właściwości i metody innej klasy.",
+        "Zasadą ukrywania szczegółów implementacji klasy, aby dostęp do niej był możliwy tylko poprzez interfejs.",
+        "Techniką ograniczania liczby instancji klasy poprzez współdzielenie obiektów o jednakowym stanie."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak oznaczamy dziedziczenie na diagramie klas w UML?",
+      "odpowiedzi": [
+        "Za pomocą linii z pustym trójkątem wskazującym na klasę bazową.",
+        "Za pomocą linii z pustym rombem wskazującym na klasę bazową.",
+        "Za pomocą linii z pustym trójkątem wskazującym na klasę pochodną.",
+        "Za pomocą linii z pustym rombem wskazującym na klasę pochodną."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co oznacza użycie słowa kluczowego \"protected\" do oznaczenia składowej klasy?",
+      "odpowiedzi": [
+        "Ta składowa jest chroniona przed odczytem.",
+        "Ta składowa będzie dostępna tylko w obrębie tej samej klasy oraz jej klas potomnych.",
+        "Ta składowa jest chroniona przed zapisem.",
+        "Ta składowa będzie dostępna tylko w obrębie tego samego obiektu oraz jego obiektów składowych."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest adres zmiennej w programowaniu?",
+      "odpowiedzi": [
+        "Typ danych używany do przechowywania tej konkretnej wartości.",
+        "Wartość zmiennej w momencie jej deklaracji.",
+        "Nazwa zmiennej w kodzie źródłowym programu.",
+        "Lokalizacja w pamięci, gdzie przechowywana jest wartość zmiennej."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Które z poniższych stwierdzeń o polch instancyjnych jest prawdziwe?",
+      "odpowiedzi": [
+        "Pola instancyjne są współdzielone przez wszystkie instancje klasy.",
+        "Pola instancyjne są unikalne dla każdej instancji klasy.",
+        "Pola instancyjne przechowują wyłącznie zmienne automatyczne.",
+        "Pola instancyjne przechowują wyłącznie zmienne dynamiczne."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest diagram klas w UML i jakie informacje przedstawia?",
+      "odpowiedzi": [
+        "Diagram klas w UML jest graficzną reprezentacją sekwencji zdarzeń w systemie.",
+        "Diagram klas w UML przedstawia rekordy aktywacji oraz stan pamięci w trakcie działania programu.",
+        "Diagram klas w UML jest graficzną reprezentacją klas w systemie, ich atrybutów, metod oraz relacji między nimi.",
+        "Diagram klas w UML jest używany do przedstawiania interakcji pomiędzy użytkownikami a systemem."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Do czego służą metody dostępowe w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Do automatycznego zarządzania pamięcią w obiekcie.",
+        "Do kontrolowanego uzyskiwania dostępu do prywatnych pól klasy oraz do modyfikacji tych pól.",
+        "Do wykorzystywania kodu klas i metod pochodzących z innych pakietów lub przestrzeni nazwa.",
+        "Do wywoływania metod innych klas bez tworzenia ich instancji."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest wczesne i późne wiązanie metod w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "W wiązaniu wczesnym obiekt posiada wszystkie swoje metody od razu po stworzeniu, a w wiązaniu późnym możemy je do niego dodawać później.",
+        "We wczesnym wiązaniu metoda do wywołania jest wybierana na etapie pisania kodu, a w wiązaniu późnym - na etapie jego kompilacji.",
+        "We wczesnym wiązaniu kompilator określa, którą metodę wywołać na podstawie typu zmiennej, a w wiązaniu późnym na podstawie rzeczywistego typu obiektu.",
+        "W wiązaniu wczesnym metoda jest wykonywana od razu w momencie wywołania, a w wiązaniu późnym - dopiero gdy wykonujemy operację na zwróconym przez nią wyniku."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest rzutowanie w górę w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To proces tworzenia bardziej specyficznej wersji obiektu poprzez dodawanie lub nadpisywanie składowych.",
+        "To proces traktowania obiektu klasy bazowej jako obiektu klasy pochodnej.",
+        "To proces traktowania obiektu klasy pochodnej jako obiektu klasy bazowej.",
+        "To proces tworzenia bardziej ogólnej wersji obiektu poprzez usuwanie składowych."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest klasa w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Szablon lub struktura definiująca dane i metody, które operują na tych danych.",
+        "Zmienna globalna dostępna w całym programie.",
+        "Instancja obiektu, która może zawierać dane i metody operujące na tych danych.",
+        "Funkcja, która tworzy nowe obiekty."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak deklaruje się tablicę liczb całkowitych o rozmiarze 10 w C#?",
+      "odpowiedzi": [
+        "int tablica[10];",
+        "int[] tablica = new int[10];",
+        "int tablica.Length = 10;",
+        "int tablica = new int[10];"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym są składowe klasy?",
+      "odpowiedzi": [
+        "Tylko metody publiczne zdefiniowane w klasie.",
+        "Tylko pola prywatne oraz kod metod klasy.",
+        "Wszystkie pola typu referencyjnego w klasie.",
+        "Pola i metody zdefiniowane w klasie."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co się stanie, jeśli klasa potomna nie wywoła jawnie konstruktora klasy bazowej w swoim konstruktorze?",
+      "odpowiedzi": [
+        "Zostanie zgłoszony błąd wykonania programu.",
+        "Konstruktor klasy bazowej zostanie wywołany po zakończeniu działania konstruktora klasy potomnej.",
+        "Konstruktor klasy bazowej nie zostanie wywołany, co może prowadzić do niezainicjalizowanych składowych w obiekcie klasy potomnej.",
+        "Automatycznie zostanie wywołany domyślny konstruktor klasy bazowej."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak w Javie poprawnie zdefiniować metodę dostępową getValue?",
+      "odpowiedzi": [
+        "public class MyClass { private int value; public int getValue() { return value; } }",
+        "public class MyClass { private int value; public void getValue(int value) { this.value = value; } }",
+        "public class MyClass { private int value; public int getValue(int value) { return value; } }",
+        "public class MyClass { private int value; public void getValue() { value = this.value; } }"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym różni się metoda od funkcji w kontekście programowania obiektowego?",
+      "odpowiedzi": [
+        "Metodami nazywamy publiczne funkcje klasy.",
+        "Metoda jest funkcją zdefiniowaną wewnątrz klasy, operującą na stanie obiektu.",
+        "Metoda może składać się z wielu funkcji, a kolejność ich wywołania jest determinowana stanem obiektu.",
+        "Metoda jest funkcją, która nie zwraca wartości, ale może modyfikować dane."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Do czego służy operator `instanceof` w Javie?",
+      "odpowiedzi": [
+        "Do sprawdzania, czy dany obiekt jest instancją określonej klasy.",
+        "Do sprawdzenia, czy instancja obiektu istnieje.",
+        "Do tworzenia nowych instancji klasy.",
+        "Do rzutowania obiektów na określony typ."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak zmienia się obiekt, gdy rzutujemy w dół?",
+      "odpowiedzi": [
+        "Obiekt sam w sobie się nie zmienia, zmienia się tylko sposób, w jaki go traktujemy.",
+        "Obiekt zostaje usunięty z pamięci i stworzony na nowo - już z nowym typem.",
+        "Obiekt zmienia swoją klasę, ale nie zmienia swojego stanu (pól składowych).",
+        "Obiekt otrzymuje wszystkie metody i pola nowej klasy, ale zachowuje swoje położenie w pamięci."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jakie są wymagania wobec klasy dziedziczącej z typu interfejsowego?",
+      "odpowiedzi": [
+        "Nie może ona dziedziczyć po innych klasach.",
+        "Musi implementować wszystkie metody zadeklarowane w interfejsie.",
+        "Musi jawnie wywołać konstruktor interfejsu w swopim konstruktorze.",
+        "Musi samodzielnie zainicjować pola odziedziczone po typie interfejsowym"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest słowo kluczowe this?",
+      "odpowiedzi": [
+        "Wskaźnikiem lub referencją na aktualną klasę.",
+        "Wskaźnikiem lub referencją na aktualną metodę.",
+        "Wskaźnikiem lub referencją na bieżący obiekt.",
+        "Jest używane do definiowania statycznych składowych."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest struktura typu zbiór?",
+      "odpowiedzi": [
+        "To struktura typu drzewiastego, w której każdy węzeł ma co najwyżej dwoje potomków.",
+        "To kolekcja unikalnych elementów, które nie są uporządkowane.",
+        "To struktura optymalizująca przechowywanie długich sekwencji wartości numerycznych.",
+        "To kolekcja przechowująca elementy w sposób sekwencyjny i dajaca do nich dostęp na podstawie indeksów."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak w programowaniu można zrealizować kompozycję?",
+      "odpowiedzi": [
+        "Przez definiowanie abstrakcyjnej klasy bazowej wspólnej dla innych klas.",
+        "Przez tworzenie publicznych interfejsów łączących wiele klas.",
+        "Przez włączenie obiektów jednej klasy jako pól innej klasy.",
+        "Przez dołączanie metod jednej klasy do innej klasy."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co to jest język niskiego poziomu?",
+      "odpowiedzi": [
+        "Język programowania, który jest używany tylko w systemach wbudowanych.",
+        "Język programowania, który jest interpretowany a nie kompilowany.",
+        "Język programowania prosty i łatwy do nauczenia się, używany głównie do celów dydaktycznych.",
+        "Język programowania bliski językowi maszynowemu, trudniejszy do zrozumienia przez człowieka."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co to jest reusability w programowaniu?",
+      "odpowiedzi": [
+        "Możliwość ponownego wykorzystania kodu w różnych częściach programu lub w różnych projektach.",
+        "Proces poprawiania jakości kodu poprzez wielokrotne jego przepisywanie.",
+        "Sposób zarządzania pamięcią na stercie poprzez usuwanie z niej zbędnych obiektów.",
+        "Technika optymalizacji kodu poprzez eliminację zbędnych operacji."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak wygląda czas życia zmiennych automatycznych?",
+      "odpowiedzi": [
+        "Są tworzone w momencie ich deklaracji i niszzone gdy program wykryje, że nie są już potrzebne.",
+        "Są tworzone na początku programu i niszczone na końcu jego działania.",
+        "Są tworzone i niszczone przy wejściu i wyjściu z bloku kodu, w którym je zadeklarowano.",
+        "Są współdzielone przez wszystkie instancje klasy."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co oznaczają słowa kluczowe `const`, `final` i `readonly` w C++, Javie, C#?",
+      "odpowiedzi": [
+        "Służą do definiowania składowych statycznych, czyli takich, które nie są związane z instancją klasy.",
+        "Służą do deklarowania zmiennych globalnych, czyli takich, które są dostępne z każdego miejsca w programie.",
+        "Służą do deklarowania stałych, czyli wartości, które nie mogą być zmieniane po ich inicjalizacji.",
+        "Są związane z przetwarzaniem wielowątkowym i zapobiegają blokadom przy jednoczesnym dostępie."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest hierarchia wyjątków?",
+      "odpowiedzi": [
+        "Struktura danych używana do przechowywania informacji o zgłoszonych w programie błędach do czasu ich obsłużenia.",
+        "Struktura klas wyjątków, gdzie bardziej specyficzne wyjątki dziedziczą po bardziej ogólnych.",
+        "Zestaw reguł dotyczących tego, jak należy obsługiwać wyjątki w programie.",
+        "Podział wyjątków w zależności od istotności - od najmniej poważnych zagrożeń, po te najbardziej krytyczne."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak kompilator decyduje, którą z przeciążonych metod wywołać?",
+      "odpowiedzi": [
+        "Kompilator zawsze wybiera pierwszą ze zdefiniowanych przeciążonych metod.",
+        "Kompilator zawsze wybiera ostatnio zdefiniowaną przeciążoną metodę.",
+        "Na podstawie nazwy metody użytej przy jej wywołaniu.",
+        "Na podstawie typu i liczby argumentów przekazanych do metody podczas jej wywołania."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co się stanie, jeśli w C++ nie zdefiniujemy destruktora dla klasy?",
+      "odpowiedzi": [
+        "Kompilator automatycznie utworzy domyślny destruktor.",
+        "Program nie skompiluje się.",
+        "Obiekt nigdy nie zostanie usunięty z pamięci.",
+        "Obiekt będzie musiał być usuwany ręcznie przez programistę"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Które dwie klasy łączy relacja kompozycji?",
+      "odpowiedzi": [
+        "Koło i Figura",
+        "Kwadrat i Prostokąt",
+        "Punkt i Wielokąt",
+        "Trójkąt i Czworokąt"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest typ interfejsowy?",
+      "odpowiedzi": [
+        "To typ, który dziedziczy jedynie metody po swojej klasie bazowej.",
+        "To typ, który zawiera jedynie publiczne pola oraz metody dostępowe, bez metod logiki biznesowej.",
+        "To typ, który określa zbiór metod, jakie muszą być zaimplementowane przez każdą klasę, która go implementuje.",
+        "To typ, który odpowiada za obsługę zdarzeń graficznego interfejsu użytkownika."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak w Javie zgłosić wyjątek?",
+      "odpowiedzi": [
+        "raise new Exception(\"Error message\");",
+        "report new Exception(\"Error message\");",
+        "throw new Exception(\"Error message\");",
+        "emit new Exception(\"Error message\");"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jaka jest rola typu `Object` w Javie i C#?",
+      "odpowiedzi": [
+        "Jest to specjalny typ do reprezentacji obiektów prymitywnych, tzn. pozbawionych metod.",
+        "Jest to główna klasa programu zawierająca metodę main() lub Main().",
+        "Jest to klasa wykorzystywana do serializacji i deserializacji obiektów.",
+        "Jest to podstawowy typ bazowy, od którego dziedziczą wszystkie inne klasy."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Który z poniższych opisów relacji jest prawidłowym przykładem dziedzenia?",
+      "odpowiedzi": [
+        "Klasa Koło dziedziczy z klasy Figura.",
+        "Klasa Czworokąt dziedziczy z klasy Trójkąt.",
+        "Klasa Trójkąt dziedziczy z klasy Czworokąt.",
+        "Klasa Figura dziedziczy z klasy Koło."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czego nie dziedziczymy w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Nie dziedziczymy metod prywatnych klasy bazowej.",
+        "Nie dziedziczymy pól klasy bazowej.",
+        "Nie dziedziczymy konstruktorów klasy bazowej.",
+        "Nie dziedziczymy interfejsu klasy bazowej."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jaka jest rola słowa kluczowego `override` w C#?",
+      "odpowiedzi": [
+        "Jest ono używane do nadpisania metody, która została zadeklarowana jako wirtualna.",
+        "Jest ono używane do zapobiegania nadpisaniu metod w klasie pochodnej.",
+        "Jest ono używane do zapobiegania dziedziczeniu metod w klasie pochodnej.",
+        "Jest ono używane do oznaczenia, że metoda może zmodyfikować stan obiektu, z którego została wywołana."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jakie słowo kluczowe jest używane do tworzenia obiektów w językach Java / C#?",
+      "odpowiedzi": [
+        "alloc",
+        "object",
+        "create",
+        "new"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jaką rolę pełni konstruktor w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Konstruktor umożliwia przywrócenie usuniętych obiektów.",
+        "Konstruktor inicjalizuje pola nowo utworzonego obiektu.",
+        "Konstruktor pozwala na dodawanie metod do istniejącego obiektu.",
+        "Konstruktor przydziela pamięć na nowo tworzony obiekt."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest przeciążanie operatorów w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To proces zmiany priorytetu operatorów arytmetycznych.",
+        "To technika umożliwiająca zdefiniowanie nowego działania dla istniejących operatorów.",
+        "To modyfikacja sposobu alokowania i zwalniania pamięci w kontekście zmiennych globalnych.",
+        "To technika umożliwiająca tworzenie nowych operatorów w danym języku programowania."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym charakteryzują się zmienne dynamiczne w C++?",
+      "odpowiedzi": [
+        "Mogą dowolnie zmieniać swój rozmiar w zależności od potrzeb.",
+        "Program może je samoczynnie usunąć, gdy uzna że nie są już potrzebne.",
+        "Programista musi ręcznie usunąć je przy użyciu operatora delete.",
+        "Są one tworzone, gdy funkcja jest wywoływana, i usuwane, gdy funkcja kończy działanie."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Czym jest klasa abstrakcyjna w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "To klasa, która może zawierać jedynie metody statyczne.",
+        "To klasa, której instancji nie możemy bezpośrednio utworzyć.",
+        "To klasa, z której nie możemy dziedziczyć.",
+        "To klasa, która nie może zawierać żadnych metod."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym są wyjątki w programowaniu obiektowym?",
+      "odpowiedzi": [
+        "Mechanizmem określania faktycznej klasy obiektu dopiero w momencie wykonywania programu.",
+        "Mechanizmem automatycznego usuwania nieużywanych obiektów z pamięci.",
+        "Mechanizmem, który umożliwia zgłaszanie i obsługę błędów w programie.",
+        "Sposobem na optymalizację wydajności programu przez kompresję często używanych metod."
+      ],
+      "poprawna_odpowiedz": 2
+    }
+  ],
+  "WWW": [
+    {
+      "pytanie": "",
+      "odpowiedzi": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "",
+      "odpowiedzi": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "poprawna_odpowiedz": 1
     }
   ]
 }
