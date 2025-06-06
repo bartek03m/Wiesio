@@ -1093,26 +1093,956 @@
       "poprawna_odpowiedz": 2
     }
   ],
-  "WWW": [
+  "www": [
     {
-      "pytanie": "",
+      "pytanie": "Która wartość właściwości `position` ustawia element względem jego pierwotnego miejsca w dokumencie?",
       "odpowiedzi": [
-        "",
-        "",
-        "",
-        ""
+        "relative",
+        "fixed",
+        "absolute",
+        "static"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak wybierasz element <p> z klasą \"example\" w CSS?",
+      "odpowiedzi": [
+        "p:example",
+        "p[\"example\"]",
+        "p.example",
+        ".example p"
       ],
       "poprawna_odpowiedz": 2
     },
     {
-      "pytanie": "",
+      "pytanie": "Wskaż prawidłowy sposób deklaracji zmiennej w JavaScript.",
       "odpowiedzi": [
-        "",
-        "",
-        "",
-        ""
+        "int x = 2",
+        "set x = 2",
+        "def x = 2",
+        "let x = 2"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak używasz selektora atrybutu w CSS, aby wybrać wszystkie elementy z atrybutem \"href\"?",
+      "odpowiedzi": [
+        ".href",
+        "[href]",
+        "href",
+        "#href"
       ],
       "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jakie właściwości CSS są używane do przesunięcia elementu, gdy jego `position` jest ustawione na `relative`?",
+      "odpowiedzi": [
+        "offsetX, offsetY, offsetZ",
+        "x, y, z",
+        "top, right, bottom, left",
+        "margin, padding, border, width"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Która wartość właściwości `position` ustawia element w dokładnym miejscu względem okna przeglądarki i pozostaje tam nawet podczas przewijania strony?",
+      "odpowiedzi": [
+        "absolute",
+        "static",
+        "sticky",
+        "fixed"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która z właściwości CSS pozwala na określenie liczby kolumn w kontenerze Grid?",
+      "odpowiedzi": [
+        "grid-columns",
+        "grid-number-columns",
+        "grid-columns-count",
+        "grid-template-columns"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS określa, czy element jest renderowany jako blokowy, inline, inline-block, itp.?",
+      "odpowiedzi": [
+        "position",
+        "display",
+        "visibility",
+        "flow"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który z poniższych atrybutów HTML jest używany do określenia liczby wierszy, które ma zająć komórka tabeli?",
+      "odpowiedzi": [
+        "rowheight",
+        "rowspan",
+        "span",
+        "rows"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który atrybut HTML jest używany do identyfikacji elementu jednoznacznie w dokumencie?",
+      "odpowiedzi": [
+        "key",
+        "id",
+        "name",
+        "class"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Która właściwość CSS jest używana do ustawienia kroju pisma tekstu?",
+      "odpowiedzi": [
+        "text-family",
+        "text-font",
+        "font-family",
+        "font-type"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Który atrybut HTML jest używany do określenia URL do którego prowadzi link?",
+      "odpowiedzi": [
+        "url",
+        "src",
+        "link",
+        "href"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Który z poniższych sposobów tworzy pusty obiekt w JavaScript?",
+      "odpowiedzi": [
+        "Object()",
+        "{}",
+        "empty {}",
+        "new {}"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Która składnia poprawnie ustawia przejście na właściwość `opacity` o czasie trwania 2 sekundy?",
+      "odpowiedzi": [
+        "transition-opacity: 2sec;",
+        "transition: opacity 2s;",
+        "transition-opacity: 2s;",
+        "transition: opacity 2sec;"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Wskaż poprawny sposób zdefiniowania funkcji w JavaScript?",
+      "odpowiedzi": [
+        "const sum = (a, b) { return a + b; };",
+        "const sum(a, b) { a + b };",
+        "const sum = function(a, b) { return a + b; };",
+        "const sum() = a + b;"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Która instrukcja jest używana do tworzenia pętli, która wykonuje się dopóki warunek jest prawdziwy?",
+      "odpowiedzi": [
+        "foreach",
+        "while",
+        "loop",
+        "repeat"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest REST?",
+      "odpowiedzi": [
+        "REST (Remote Event Synchronization Technology) to technologia używana do synchronizacji zdarzeń w aplikacjach rozproszonych.",
+        "REST (Reliable Encryption Secure Transfer) to protokół szyfrowania danych używany do bezpiecznego przesyłania informacji między serwerami.",
+        "REST (Representational State Transfer) to styl architektury oprogramowania, który wykorzystuje standardowe metody HTTP do komunikacji między klientem a serwerem.",
+        "REST (Rapid Execution Scripting Tool) to narzędzie do szybkiego wykonywania skryptów w aplikacjach webowych."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Która właściwość CSS jest używana do zmiany rozmiaru elementu?",
+      "odpowiedzi": [
+        "transform: resize();",
+        "transition: resize();",
+        "transition: scale();",
+        "transform: scale();"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS jest używana do ukrycia elementu, ale nadal zajmuje on miejsce w dokumencie?",
+      "odpowiedzi": [
+        "hidden",
+        "visibility",
+        "norender",
+        "float"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak możemy przekonwertować zmienną numeryczną `x` na typ tekstowy w JavaScript?",
+      "odpowiedzi": [
+        "x.toString()",
+        "text(x)",
+        "(string)x",
+        "str(x)"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Która technika jest podstawowym elementem Responsive Web Design?",
+      "odpowiedzi": [
+        "CSS sprites",
+        "Media queries",
+        "Fixed layouts",
+        "Flash animation"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Która właściwość CSS jest używana do określenia czasu trwania przejścia (transition)?",
+      "odpowiedzi": [
+        "transition-seconds",
+        "transition-millis",
+        "transition-time",
+        "transition-duration"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS zmienia sposób obliczania szerokości i wysokości elementu?",
+      "odpowiedzi": [
+        "box-sizing",
+        "box-model",
+        "box-type",
+        "size-model"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak zmienić tekst elementu o id \"myElement\" na \"Hello\" za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElementById(\"myElement\").value = \"Hello\";",
+        "document.getElementById(\"myElement\").content = \"Hello\";",
+        "document.getElementById(\"myElement\").text = \"Hello\";",
+        "document.getElementById(\"myElement\").textContent = \"Hello\";"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak uzyskać dostęp do wszystkich elementów z klasą \"example\" za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElements(\".example\");",
+        "document.getElementsAll(\".example\");",
+        "document.queryElements(\".example\");",
+        "document.querySelectorAll(\".example\");"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak zmienić kolor tła elementu o id \"myElement\" na czerwony za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElementById(\"myElement\").style.color = \"red\";",
+        "document.getElementById(\"myElement\").background.color = \"red\";",
+        "document.getElementById(\"myElement\").background.style = \"red\";",
+        "document.getElementById(\"myElement\").style.backgroundColor = \"red\";"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Który znacznik HTML jest używany do tworzenia hiperłączy?",
+      "odpowiedzi": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który selektor CSS wybiera wszystkie elementy <p> wewnątrz elementu <div>?",
+      "odpowiedzi": [
+        "div p",
+        "div ~ p",
+        "div / p",
+        "div + p"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak używasz selektora nth-child w CSS, aby wybrać co drugi element?",
+      "odpowiedzi": [
+        ".nth-child(2n)",
+        ":nth-child(2n)",
+        "2n:nth-child",
+        "nth-child(2n){}"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który z poniższych jest przykładem technologii wspomagającej?",
+      "odpowiedzi": [
+        "Oprogramowanie antywirusowe.",
+        "Przeglądarka internetowa.",
+        "Program do edycji grafiki.",
+        "Czytnik ekranu."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jakiego wyniku zwróci wyrażenie `typeof 42` w JavaScript?",
+      "odpowiedzi": [
+        "\"number\"",
+        "\"float\"",
+        "\"integer\"",
+        "\"numeric\""
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co oznacza kod statusu HTTP 200?",
+      "odpowiedzi": [
+        "Kod 200 oznacza, że żądanie jest niepoprawne.",
+        "Kod 200 oznacza, że wystąpił błąd wewnętrzny serwera.",
+        "Kod 200 oznacza, że zasób nie został znaleziony.",
+        "Kod 200 oznacza, że żądanie zakończyło się sukcesem."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS określa, w jaki sposób elastyczne elementy będą rosnąć w stosunku do pozostałych elementów?",
+      "odpowiedzi": [
+        "flex-grow",
+        "flex-overflow",
+        "flex-elastic",
+        "flex-resize"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Który z poniższych znaczników HTML jest używany do definiowania wiersza tabeli?",
+      "odpowiedzi": [
+        "<row>",
+        "<td>",
+        "<tr>",
+        "<hr>"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Która właściwość CSS pozwala na ustawienie odstępu między kolumnami i wierszami w kontenerze Grid?",
+      "odpowiedzi": [
+        "grid-margin",
+        "grid-spacing",
+        "grid-padding",
+        "grid-gap"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Który atrybut należy użyć do podania deskrypcji obrazka w HTML?",
+      "odpowiedzi": [
+        "title",
+        "alt",
+        "descr",
+        "text"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który atrybut HTML jest używany do powiązania etykiety z elementem formularza?",
+      "odpowiedzi": [
+        "for",
+        "target",
+        "bind",
+        "if"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak uzyskać dostęp do elementu HTML o id \"myElement\" za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElementById(\"#myElement\");",
+        "document.getElement(\"#myElement\");",
+        "document.getElementById(\"myElement\");",
+        "document.getElement(\"myElement\");"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak dodać nowy element \"p\" z tekstem \"Hello\" do elementu o id \"container\" w JavaScript?",
+      "odpowiedzi": [
+        "let newElement = document.createElement(\"p\"); newElement.textContent = \"Hello\"; document.getElementById(\"container\").push(newElement);",
+        "let newElement = document.createElement(\"p\"); newElement.textContent = \"Hello\"; document.getElementById(\"container\").appendChild(newElement);",
+        "let newElement = document.createElement(\"p\"); newElement.push(\"Hello\"); document.getElementById(\"container\").push(newElement);",
+        "let newElement = document.createElement(\"p\"); newElement.push(\"Hello\"); document.getElementById(\"container\").appendChild(newElement);"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak zamykamy znacznik w HTML?",
+      "odpowiedzi": [
+        "<\\tag>",
+        "<end>",
+        "</tag>",
+        "<tag/>"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Która właściwość CSS określa, jak zawartość jest renderowana, jeśli nie mieści się w elemencie?",
+      "odpowiedzi": [
+        "display",
+        "flow",
+        "visibility",
+        "overflow"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co oznacza pojęcie \"mobile-first\" w kontekście RWD?",
+      "odpowiedzi": [
+        "Mobile-first to podejście do projektowania stron internetowych, które polega na tworzeniu stylów najpierw dla urządzeń mobilnych, a następnie dla większych ekranów.",
+        "Mobile-first to technika tworzenia stron internetowych wyłącznie dla urządzeń mobilnych.",
+        "Mobile-first to metoda optymalizacji stron internetowych pod kątem wyszukiwarek.",
+        "Mobile-first to narzędzie do testowania stron internetowych na urządzeniach mobilnych."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Która z poniższych wartości jest prawidłowym sposobem na umieszczenie elementu grid w dwóch pierwszych kolumnach?",
+      "odpowiedzi": [
+        "grid-column: 0 / 2;",
+        "grid-column: 1 / 3;",
+        "grid-column: 0 / 1;",
+        "grid-column: 1 / 2;"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak używasz selektora pseudo-elementu 'before' w CSS?",
+      "odpowiedzi": [
+        ":before",
+        "::before",
+        ".before",
+        "[before]"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Co oznacza właściwość `grid-row` w CSS Grid?",
+      "odpowiedzi": [
+        "`grid-row` określa rozmiar i liczbę wierszy.",
+        "`grid-row` określa, jak elementy są wyrównane wzdłuż osi pionowej.",
+        "`grid-row` określa, gdzie element grid item zaczyna się i kończy w wierszach siatki.",
+        "`grid-row` ustawia odstępy między wierszami."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Który element HTML jest używany do tworzenia przycisku wysyłającego dane formularza?",
+      "odpowiedzi": [
+        "<input type=\"button\">",
+        "<button type=\"form\">",
+        "<input type=\"send\">",
+        "<button type=\"submit\">"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która z poniższych składni jest poprawnym przykładem media query dla ekranów o szerokości mniejszej niż 600px?",
+      "odpowiedzi": [
+        "@media (min-width: 600px) { /* style CSS */ }",
+        "@media (max-width: 600px) { /* style CSS */ }",
+        "@media (width: 600px) { /* style CSS */ }",
+        "@media (screen-width: 600px) { /* style CSS */ }"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym charakteryzują się sesyjne ciasteczka (session cookies)?",
+      "odpowiedzi": [
+        "Sesyjne ciasteczka są przechowywane do momentu wylogowania się użytkownika.",
+        "Sesyjne ciasteczka nie są widoczne na serwerze.",
+        "Sesyjne ciasteczka są tworzone jedynie w trybie incognito.",
+        "Sesyjne ciasteczka są przechowywane tymczasowo i są usuwane po zamknięciu przeglądarki."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która metoda JavaScript jest używana do dodawania nowego elementu na końcu tablicy?",
+      "odpowiedzi": [
+        "push()",
+        "append()",
+        "set()",
+        "add()"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Który atrybut HTML jest używany do ustawienia pola formularza jako obowiązkowego?",
+      "odpowiedzi": [
+        "compulsory",
+        "mandatory",
+        "validate",
+        "required"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Co to jest \"grid template\" w CSS Grid?",
+      "odpowiedzi": [
+        "Grid template to definicja struktury siatki, określająca liczbę i rozmiar kolumn oraz wierszy w grid container.",
+        "Grid template to narzędzie do wizualnej edycji struktury i zawartości siatki.",
+        "Grid template to wzorzec pojedynczego elementu grida, kopiowanego aby utrworzyć pełną strukturę siatki.",
+        "Grid template to właściwość używana do animacji w CSS Grid."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak należy rozumieć aspekt P (postrzegalność - perceivable) z akronimu POUR?",
+      "odpowiedzi": [
+        "Strony internetowe muszą być zoptymalizowane pod kątem wydajności i szybkości ładowania.",
+        "Strony internetowe i aplikacje muszą być kompatybilne z różnymi przeglądarkami i systemami.",
+        "Strony internetowe muszą być zaprojektowane zgodnie z najnowszymi trendami w designie.",
+        "Elementy i treści na stronie internetowej muszą być przedstawione w sposób, który umożliwia użytkownikom ich odbiór."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jakie jest zastosowanie funkcji `repeat()` w CSS Grid?",
+      "odpowiedzi": [
+        "Funkcja `repeat()` jest używana do powtarzania animacji w grid items.",
+        "Funkcja `repeat()` tworzy kopie grid items.",
+        "Funkcja `repeat()` ułatwia definiowanie powtarzających się wzorców kolumn lub wierszy.",
+        "Funkcja `repeat()` jest używana do definiowania odstępów między kolumnami i wierszami."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak utworzyć obiekt z określonymi właściwościami w JavaScript?",
+      "odpowiedzi": [
+        "let person = { name = \"John\", age = 30 };",
+        "let person = new { name = \"John\", age = 30 };",
+        "let person = { name: \"John\", age: 30 };",
+        "let person = new { name: \"John\", age: 30 };"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak dodać klasę \"active\" do elementu o id \"myElement\" za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElementById(\"myElement\").class.active = true;",
+        "document.getElementById(\"myElement\").addClass(\"active\");",
+        "document.getElementById(\"myElement\").class += \"active\";",
+        "document.getElementById(\"myElement\").classList.add(\"active\");"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS ustawia domyślną wielkość elastycznego elementu przed przydzieleniem dodatkowej przestrzeni?",
+      "odpowiedzi": [
+        "flex-size",
+        "flex-default",
+        "flex-normal",
+        "flex-basis"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czym takim jest ARIA w kontekście dostępności?",
+      "odpowiedzi": [
+        "ARIA to zestaw specyfikacji, które poprawiają dostępność dynamicznych treści internetowych.",
+        "ARIA to protokół zabezpieczający strony internetowe przed atakami.",
+        "ARIA to narzędzie do analizy ruchu na stronach internetowych.",
+        "ARIA to język programowania służący do tworzenia stron internetowych."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Który z poniższych znaczników HTML jest używany do tworzenia rozwijanej listy?",
+      "odpowiedzi": [
+        "<menu>",
+        "<combo>",
+        "<dropdown>",
+        "<select>"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak uzyskać dostęp do rodzica elementu element za pomocą JavaScript?",
+      "odpowiedzi": [
+        "element.top;",
+        "element.super;",
+        "element.parentElement;",
+        "element.root;"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak zarejestrować obsługę zdarzenia kliknięcia na element \"button\" o id \"myButton\" za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElementById(\"myButton\").addEventListener(\"click\", myFunction);",
+        "document.getElementById(\"myButton\").addEventListener(\"onclick\", myFunction());",
+        "document.getElementById(\"myButton\").addEventListener(\"click\", myFunction());",
+        "document.getElementById(\"myButton\").addEventListener(\"onclick\", myFunction);"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jakie są typowe zastosowania ciasteczek?",
+      "odpowiedzi": [
+        "Wysyłanie wiadomości, zarządzanie bazami danych, tworzenie kopii zapasowych, analiza ruchu sieciowego.",
+        "Animacje na stronie, przechowywanie plików multimedialnych, optymalizacja grafiki, kompresja danych.",
+        "Przechowywanie informacji o sesji, zapisywanie preferencji użytkownika, śledzenie aktywności na stronie, personalizacja treści.",
+        "Zarządzanie plikami, hosting stron internetowych, synchronizacja danych, przechowywanie kodu JavaScript."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak przekonwertować ciąg JSON na obiekt JavaScript?",
+      "odpowiedzi": [
+        "JSON.eval(jsonString)",
+        "JSON.convert(jsonString)",
+        "JSON.toObject(jsonString)",
+        "JSON.parse(jsonString)"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jaką właściwość CSS używa się do ustawienia grubości ramki elementu?",
+      "odpowiedzi": [
+        "border-size",
+        "border-girth",
+        "border-width",
+        "border-thickness"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Który element HTML jest używany do grupowania powiązanych elementów formularza?",
+      "odpowiedzi": [
+        "<group>",
+        "<box>",
+        "<fieldset>",
+        "<section>"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Który z poniższych atrybutów HTML jest używany do otwierania linku w nowej karcie lub oknie?",
+      "odpowiedzi": [
+        "new",
+        "target",
+        "popup",
+        "window"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak używać Fetch API?",
+      "odpowiedzi": [
+        "Fetch API jest używany do tworzenia animacji poprzez funkcję `fetch()`, która zwraca obiekt Animation.",
+        "Fetch API jest używany do stylizowania elementów HTML poprzez funkcję `fetch()`, która zwraca obiekt CSS.",
+        "Fetch API jest używany do bezpośredniego manipulowania DOM poprzez funkcję `fetch()`, która zwraca obiekt HTML.",
+        "Fetch API jest używany do wykonywania żądań poprzez funkcję `fetch()`, która pozwala na asynchroniczne pobieranie danych z serwera."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Który z poniższych znaczników HTML jest używany do zdefiniowania stopki dokumentu lub sekcji?",
+      "odpowiedzi": [
+        "<tail>",
+        "<footer>",
+        "<bottom>",
+        "<end>"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Czym jest AJAX?",
+      "odpowiedzi": [
+        "AJAX to język programowania używany do tworzenia stron internetowych.",
+        "AJAX to technika pozwalająca na asynchroniczne pobieranie danych z serwera.",
+        "AJAX to format plików używany do przechowywania danych w przeglądarkach.",
+        "AJAX to biblioteka JavaScript do tworzenia animacji."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak przekazać parametr z domyślną wartością w funkcji w JavaScript?",
+      "odpowiedzi": [
+        "function myFunction(a => 10) {}",
+        "function myFunction(a || 10) {}",
+        "function myFunction(a ?? 10) {}",
+        "function myFunction(a = 10) {}"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jak używasz selektora pseudoklasy :hover w CSS?",
+      "odpowiedzi": [
+        "[hover]",
+        ":hover",
+        ".hover",
+        "(hover)"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jak zapobiec domyślnej akcji przeglądarki w JavaScript?",
+      "odpowiedzi": [
+        "event.preventDefault();",
+        "event.stopPropagation();",
+        "event.handle();",
+        "event.cancel();"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak używasz selektora ID w CSS?",
+      "odpowiedzi": [
+        ".id",
+        "#id",
+        "\"id\"",
+        "id"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Co oznacza jednostka `fr` w CSS Grid?",
+      "odpowiedzi": [
+        "Jednostka `fr` oznacza \"fraction\" i reprezentuje część dostępnej przestrzeni w grid container.",
+        "Jednostka `fr` oznacza \"frame\" i jest używana do tworzenia ramek wokół grid items.",
+        "Jednostka `fr` oznacza \"font ratio\" i jest używana do skalowania tekstu.",
+        "Jednostka `fr` oznacza \"fixed ratio\" i jest używana do ustawiania proporcji obrazów."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Co się stanie z tekstem w paragrafie umieszczonym po obrazku z ustawionym `float: left;`?",
+      "odpowiedzi": [
+        "Tekst będzie opływał obrazek po jego prawej stronie.",
+        "Tekst będzie opływał obrazek po jego lewej stronie.",
+        "Tekst zostanie umieszczony nad obrazkiem.",
+        "Tekst zostanie umieszczony za obrazkiem."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Który element HTML jest używany do tworzenia pojedynczego elementu w rozwijanym menu?",
+      "odpowiedzi": [
+        "<item>",
+        "<li>",
+        "<comboboxitem>",
+        "<option>"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Jakie są podstawowe metody HTTP?",
+      "odpowiedzi": [
+        "INSERT, UPDATE, SELECT, DELETE",
+        "CONNECT, TRACE, TRACK, EXECUTE",
+        "GET, POST, PUT, DELETE",
+        "SEND, RECEIVE, FETCH, PUSH"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co to jest kontener Flexbox?",
+      "odpowiedzi": [
+        "Kontener Flexbox to zewnętrzny plik CSS zawierający reguły Flexbox.",
+        "Kontener Flexbox to element, na który zastosowano właściwość `display: flex;`, umożliwiający użycie wszystkich funkcji Flexbox na jego dzieciach.",
+        "Kontener Flexbox to specjalny typ elementu HTML, umożliwiający użycie wszystkich funkcji Flexbox na jego dzieciach.",
+        "Kontener Flexbox to specjalny typ elementu HTML, na którym jest możliwe użycie wszystkich funkcji Flexbox."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jaki jest główny cel wykorzystania Flexbox w CSS?",
+      "odpowiedzi": [
+        "Flexbox jest używany do stylizacji tekstu i typografii.",
+        "Flexbox jest używany do tworzenia pełnoekranowych prezentacji w stylu Power Pointa.",
+        "Flexbox jest używany do tworzenia układów dynamicznie dostosowujących się do rozmiaru okna.",
+        "Flexbox jest używany do tworzenia animacji i efektów graficznych."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jak działa model komunikacji HTTP?",
+      "odpowiedzi": [
+        "Model komunikacji HTTP działa na zasadzie peer-to-peer, gdzie każdy węzeł może wysyłać i odbierać żądania.",
+        "Model komunikacji HTTP działa na zasadzie jednego centralnego serwera zarządzającego wszystkimi żądaniami.",
+        "Model komunikacji HTTP działa na zasadzie klient-serwer, gdzie klient wysyła żądania do serwera, a serwer odpowiada przesyłając odpowiednie zasoby.",
+        "Model komunikacji HTTP działa tylko w sieciach lokalnych (LAN)."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Jakiego typu jest zmienna, która przechowuje tekst w JavaScript?",
+      "odpowiedzi": [
+        "char[]",
+        "string",
+        "array",
+        "text"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który element HTML jest używany do tworzenia formularza?",
+      "odpowiedzi": [
+        "<form>",
+        "<fieldset>",
+        "<table>",
+        "<formular>"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jakie są główne zalety używania CSS Grid w porównaniu do tradycyjnych metod układu (np. float czy inline-block)?",
+      "odpowiedzi": [
+        "CSS Grid automatycznie generuje zawartość strony w oparciu o duże modele językowe (LLM).",
+        "CSS Grid umożliwia tworzenie bardziej złożonych i elastycznych układów, pozwalając na zarządzanie przestrzenią w dwóch wymiarach.",
+        "CSS Grid zwiększa prędkość ładowania strony, poprzez dynamiczne doczytywanie zawartości w trakcie scrollowania.",
+        "CSS Grid pozwala na tworzenie wielokolorowych układów, zmieniających styl zależnie od działań użytkownika."
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który selektor CSS wybiera bezpośrednie dzieci <a> wewnątrz elementu o klasie \"top\"?",
+      "odpowiedzi": [
+        ".top : a",
+        ".top > a",
+        ".top + a",
+        ".top ~ a"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Która właściwość HTML określa, gdzie dane formularza mają być wysyłane?",
+      "odpowiedzi": [
+        "target",
+        "action",
+        "url",
+        "method"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Który z poniższych znaczników jest używany do tworzenia listy numerowanej?",
+      "odpowiedzi": [
+        "<nl>",
+        "<ul>",
+        "<ol>",
+        "<dl>"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Który z poniższych znaczników HTML jest używany do definiowania sekcji nagłówkowej dokumentu?",
+      "odpowiedzi": [
+        "<header>",
+        "<section>",
+        "<h1>",
+        "<head>"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS jest używana do ustawienia koloru tekstu?",
+      "odpowiedzi": [
+        "foreground",
+        "text",
+        "color",
+        "font"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Które z poniższych jest właściwością obiektów w JavaScript?",
+      "odpowiedzi": [
+        "Obiekty w JavaScript muszą być zdefiniowane jako klasy.",
+        "Obiekty w JavaScript nie mogą zawierać metod.",
+        "Obiekty w JavaScript nie mogą zawierać innych obiektów.",
+        "Obiekty w JavaScript są kolekcjami par klucz-wartość."
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Która właściwość CSS jest używana do ustawienia pogrubienia tekstu?",
+      "odpowiedzi": [
+        "text-weight",
+        "font-weight",
+        "text-bold",
+        "font-bold"
+      ],
+      "poprawna_odpowiedz": 1
+    },
+    {
+      "pytanie": "Jaką wartość można użyć do ustawienia koloru w CSS za pomocą kodu szesnastkowego?",
+      "odpowiedzi": [
+        "#ff0000",
+        "0xff0000",
+        "$ff0000",
+        "hex(ff0000)"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jaką właściwość CSS używa się do ustawienia wewnętrznego odstępu (odległości) wewnątrz elementu?",
+      "odpowiedzi": [
+        "padding",
+        "spacing",
+        "border",
+        "margin"
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Który element HTML jest używany do wprowadzania tekstu jednowierszowego w formularzu?",
+      "odpowiedzi": [
+        "<textbox>",
+        "<field>",
+        "<input type=\"field\">",
+        "<input type=\"text\">"
+      ],
+      "poprawna_odpowiedz": 3
+    },
+    {
+      "pytanie": "Czego dotyczą wytyczne WCAG?",
+      "odpowiedzi": [
+        "Wytyczne WCAG dotyczą optymalizacji stron internetowych pod kątem wyszukiwarek (SEO).",
+        "Wytyczne WCAG dotyczą estetyki i wyglądu stron internetowych.",
+        "Wytyczne WCAG dotyczą tworzenia stron internetowych dostępnych dla osób z różnymi niepełnosprawnościami.",
+        "Wytyczne WCAG dotyczą zasad zachowania bezpieczeństwa stron internetowych."
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Która z poniższych opcji najlepiej opisuje różnicę między metodą POST a GET przy wysyłaniu formularza?",
+      "odpowiedzi": [
+        "Metoda POST wysyła dane formularza jako ciało żądania HTTP, podczas gdy metoda GET wysyła dane formularza jako część URL.",
+        "Metoda POST szyfruje dane formularza, podczas gdy metoda GET wysyła je jako zwykły tekst.",
+        "Metoda POST dodaje dane formularza do nagłówków HTTP, podczas gdy metoda GET dodaje je do ciasteczek.",
+        "Metoda POST jest używana tylko do przesyłania plików, podczas gdy metoda GET jest używana tylko do przesyłania tekstu."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Jak dodać nowy element \"div\" do elementu o id \"container\" za pomocą JavaScript?",
+      "odpowiedzi": [
+        "document.getElementById(\"container\").appendChild(document.createElement(\"div\"));",
+        "document.getElementById(\"container\").appendChild(\"<div></div>\");",
+        "document.getElementById(\"container\").createElement(\"div\");",
+        "document.getElementById(\"container\").children += \"<div></div>\";"
+      ],
+      "poprawna_odpowiedz": 0
     }
   ]
 }
