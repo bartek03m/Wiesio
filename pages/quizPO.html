@@ -7,9 +7,32 @@
     <link rel="icon" href="../images/icon.png">
     <link rel="stylesheet" href="../css/mainstyle.css">
     <link rel="stylesheet" href="../css/kontakt_quiz.css">
+    <link rel="stylesheet" href="quizyzero.css">
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <script src="../js/darkmode.js" defer></script>
     <script src="../js/quizpo.js" defer></script>
+    <style>
+        /* Add these styles to your kontakt_quiz.css or directly here */
+        .odpowiedz.correct, body.darkmode .odpowiedz.correct {
+            background-color: #4CAF50; /* Green for correct */
+            color: white;
+        }
+        .odpowiedz.incorrect, body.darkmode .odpowiedz.incorrect {
+            background-color: #f44336; /* Red for incorrect */
+            color: white;
+        }
+        #continue-btn, body.darkmode #continue-btn {
+            display: none; /* Hidden by default */
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            background-color: #008CBA; /* Blue for continue button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -58,11 +81,11 @@
                 <div class="odpowiedz" id="b"></div>
                 <div class="odpowiedz" id="c"></div>
                 <div class="odpowiedz" id="d"></div>
-            </section>
+                <button id="continue-btn">Kontynuuj</button> </section>
         </main>
         <footer>
             <p>Stronę wykonali: Julia Michniewicz, Oliwier Góralczyk, Bartosz Majewski &copy;</p>
         </footer>
     </div>
 </body>
-</html> 
+</html>
