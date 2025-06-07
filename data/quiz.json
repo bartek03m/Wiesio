@@ -123,7 +123,7 @@
       "poprawna_odpowiedz": 0
     },
     {
-      "pytanie": "Co zostanie utworzone w języku C# wskutek działania poniższej instrukcji? new Liczba[10]",
+      "pytanie": "Czym są składowe klasy?",
       "odpowiedzi": [
         "Tylko pola prywatne oraz kod metod klasy",
         "Pola i metody zdefiniowane w klasie",
@@ -2043,6 +2043,36 @@
         "document.getElementById(\"container\").children += \"<div></div>\";"
       ],
       "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Czym są funkcje czasowe (timing functions) w kontekście animacji CSS?",
+      "odpowiedzi": [
+        "Funkcje czasowe określają tempo zmiany właściwości CSS w czasie trwania animacji lub przejścia.",
+        "Funkcje czasowe kontrolują, ile razy animacja się powtarza.",
+        "Funkcje czasowe określają, które właściwości CSS będą animowane.",
+        "Funkcje czasowe definiują czas rozpoczęcia i zakończenia animacji."
+      ],
+      "poprawna_odpowiedz": 0
+    },
+    {
+      "pytanie": "Które z poniższych jest poprawną strukturą JSON?",
+      "odpowiedzi": [
+        "{name: \"John\", age: 30, city: \"New York\"}",
+        "{\"name\"= \"John\", \"age\"= 30, \"city\"= \"New York\"}",
+        "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}",
+        "{name= \"John\", age= 30, city= \"New York\"}"
+      ],
+      "poprawna_odpowiedz": 2
+    },
+    {
+      "pytanie": "Co to jest \"główna oś\" (main axis) w kontekście Flexbox?",
+      "odpowiedzi": [
+        "Główna oś to krawędź kontenera ograniczająca rozmieszczanie elementów (i mogąca powodować ich zawijanie).",
+        "Główna oś to krawędź kontenera od której elementy są w nim rozmieszczane.",
+        "Główna oś to kierunek, w którym elementy Flexbox są rozmieszczane w kontenerze.",
+        "Główna oś to linia dzieląca kontener na dwie równe części."
+      ],
+      "poprawna_odpowiedz": 2
     }
   ]
 }
