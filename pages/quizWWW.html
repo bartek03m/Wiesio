@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiedźmin wiki</title>
+    <title>Wiedźmin wiki - Quiz</title>
     <link rel="icon" href="../images/icon.png">
     <link rel="stylesheet" href="../css/mainstyle.css">
     <link rel="stylesheet" href="../css/kontakt_quiz.css">
-    <link rel="stylesheet" href="../css/quiz_darkmode.css"> <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/quiz_darkmode.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <script src="../js/darkmode.js" defer></script>
     <script src="../js/quizwww.js" defer></script>
     <style>
-        /* Add these styles to your kontakt_quiz.css or directly here */
+        /* Dodane lub zmodyfikowane style */
         .odpowiedz.correct, body.darkmode .odpowiedz.correct {
             background-color: #4CAF50; /* Green for correct */
             color: white;
@@ -30,6 +31,57 @@
             color: white;
             border: none;
             border-radius: 5px;
+        }
+        /* Nowe style dla informacji o quizie i przycisków */
+        #quiz-header-info { /* Nowy kontener na górne informacje */
+            display: flex;
+            justify-content: space-between; /* Rozłóż elementy na boki */
+            align-items: center; /* Wyśrodkuj pionowo */
+            margin-bottom: 15px;
+            flex-wrap: wrap; /* Zezwól na zawijanie na mniejszych ekranach */
+            gap: 10px; /* Odstęp między elementami */
+        }
+        #quiz-info {
+            font-size: 1.1em;
+            text-align: left; /* Wyrównanie do lewej w kontenerze */
+            flex-grow: 1; /* Pozwól na rozrost */
+        }
+        #restart-btn {
+            /* Nowe style dla przycisku restartu na górze */
+            padding: 8px 15px;
+            font-size: 1em;
+            cursor: pointer;
+            background-color: #FF5722; /* Orange for restart button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            white-space: nowrap; /* Zapobiegaj zawijaniu tekstu na przycisku */
+        }
+        #start-quiz-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #start-quiz-btn {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        #resume-quiz-btn {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+        .quiz-content {
+            display: none; /* Hidden by default, shown by JS when quiz starts */
         }
     </style>
 </head>
@@ -64,7 +116,7 @@
                 <li><a href="quiz.html">Quiz</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
                 <li>
-                    <label for="toggle-darkmode" id="darkmode-label"> 
+                    <label for="toggle-darkmode" id="darkmode-label">
                         Tryb ciemny
                     </label>
                     <input type="checkbox" id="toggle-darkmode">
@@ -75,12 +127,23 @@
             <hr>
             <section>
                 <h1>Poligon przygotowawczy na zeruwke z wuwuwu</h1>
-                <p id="pytanie"></p>
-                <div class="odpowiedz" id="a"></div>
-                <div class="odpowiedz" id="b"></div>
-                <div class="odpowiedz" id="c"></div>
-                <div class="odpowiedz" id="d"></div>
-                <button id="continue-btn">Kontynuuj</button> </section>
+                <div id="start-quiz-container">
+                    <button id="start-quiz-btn">Rozpocznij quiz od nowa</button>
+                    <button id="resume-quiz-btn" style="display:none;">Kontynuuj ostatni quiz</button>
+                </div>
+                <div class="quiz-content">
+                    <div id="quiz-header-info"> <p id="quiz-info"></p>
+                        <button id="restart-btn" style="display:none;">Rozpocznij od nowa</button>
+                    </div>
+                    <p id="popodp"></p>
+                    <p id="pytanie"></p>
+                    <div class="odpowiedz" id="a"></div>
+                    <div class="odpowiedz" id="b"></div>
+                    <div class="odpowiedz" id="c"></div>
+                    <div class="odpowiedz" id="d"></div>
+                    <button id="continue-btn">Kontynuuj</button>
+                </div>
+            </section>
         </main>
         <footer>
             <p>Stronę wykonali: Julia Michniewicz, Oliwier Góralczyk, Bartosz Majewski &copy;</p>
