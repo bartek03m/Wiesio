@@ -19,13 +19,13 @@ let quizData;
 
 // --- Funkcje do Local Storage ---
 function zapiszStanQuizu() {
-    localStorage.setItem('aktualnePytaniePO', aktualnePytanie); // Zmieniono klucz na 'PO'
-    localStorage.setItem('punktyPO', punkty); // Zmieniono klucz na 'PO'
+    localStorage.setItem('aktualnePytaniePO', aktualnePytanie);
+    localStorage.setItem('punktyPO', punkty);
 }
 
 function wczytajStanQuizu() {
-    const savedAktualnePytanie = localStorage.getItem('aktualnePytaniePO'); // Zmieniono klucz na 'PO'
-    const savedPunkty = localStorage.getItem('punktyPO'); // Zmieniono klucz na 'PO'
+    const savedAktualnePytanie = localStorage.getItem('aktualnePytaniePO');
+    const savedPunkty = localStorage.getItem('punktyPO');
 
     if (savedAktualnePytanie !== null && savedPunkty !== null) {
         aktualnePytanie = parseInt(savedAktualnePytanie, 10);
@@ -36,8 +36,8 @@ function wczytajStanQuizu() {
 }
 
 function resetujStanQuizu() {
-    localStorage.removeItem('aktualnePytaniePO'); // Zmieniono klucz na 'PO'
-    localStorage.removeItem('punktyPO'); // Zmieniono klucz na 'PO'
+    localStorage.removeItem('aktualnePytaniePO');
+    localStorage.removeItem('punktyPO');
     aktualnePytanie = 0;
     punkty = 0;
 }
@@ -46,7 +46,7 @@ function resetujStanQuizu() {
 fetch('../data/quiz.json')
     .then(response => response.json())
     .then(data => {
-        quizData = data.po; // Zmieniono na data.po
+        quizData = data.po;
         liczbaPytan = Object.keys(quizData).length;
 
         A.addEventListener("click", () => { sprawdzOdpowiedz(0); });
@@ -171,11 +171,21 @@ function nastepnePytanie() {
 }
 
 function wyswietlWynik() {
-    // Zmieniono klucz na "highscorePO"
-    const HS = localStorage.getItem("highscorePO"); 
+    let HS = localStorage.getItem("highscorePO"); // Pobierz High Score jako string
+    
+    // Konwertuj HS na liczbę, jeśli istnieje. Jeśli nie, ustaw na 0.
+    // Zapewnia to poprawne porównanie liczbowe.
+    let highscoreValue = HS !== null ? parseInt(HS, 10) : 0; 
+
+    // Sprawdź, czy aktualny wynik jest wyższy niż zapisany rekord
+    if (punkty > highscoreValue) {
+        highscoreValue = punkty; // Zaktualizuj High Score na nowy, wyższy wynik
+        localStorage.setItem("highscorePO", highscoreValue); // Zapisz nowy High Score
+    }
+
     const procentPoprawnychKoncowy = ((punkty / liczbaPytan) * 100).toFixed(0);
 
-    pytanieBox.innerHTML = `Koniec quizu! Zdobyłeś ${punkty}/${liczbaPytan} punktów.<br>Poprawność: ${procentPoprawnychKoncowy}%<br>Twój rekord to: ${HS !== null ? HS : 0} punktów.`;
+    pytanieBox.innerHTML = `Koniec quizu! Zdobyłeś ${punkty}/${liczbaPytan} punktów.<br>Poprawność: ${procentPoprawnychKoncowy}%<br>Twój rekord to: ${highscoreValue} punktów.`;
     
     answers.forEach(answer => {
         if (answer) {

@@ -171,10 +171,21 @@ function nastepnePytanie() {
 }
 
 function wyswietlWynik() {
-    const HS = localStorage.getItem("highscoreWWW");
+    let HS = localStorage.getItem("highscoreWWW"); // Pobierz High Score jako string
+    
+    // Konwertuj HS na liczbę, jeśli istnieje. Jeśli nie, ustaw na 0.
+    // Zapewnia to poprawne porównanie liczbowe.
+    let highscoreValue = HS !== null ? parseInt(HS, 10) : 0; 
+
+    // Sprawdź, czy aktualny wynik jest wyższy niż zapisany rekord
+    if (punkty > highscoreValue) {
+        highscoreValue = punkty; // Zaktualizuj High Score na nowy, wyższy wynik
+        localStorage.setItem("highscoreWWW", highscoreValue); // Zapisz nowy High Score
+    }
+
     const procentPoprawnychKoncowy = ((punkty / liczbaPytan) * 100).toFixed(0);
 
-    pytanieBox.innerHTML = `Koniec quizu! Zdobyłeś ${punkty}/${liczbaPytan} punktów.<br>Poprawność: ${procentPoprawnychKoncowy}%<br>Twój rekord to: ${HS !== null ? HS : 0} punktów.`;
+    pytanieBox.innerHTML = `Koniec quizu! Zdobyłeś ${punkty}/${liczbaPytan} punktów.<br>Poprawność: ${procentPoprawnychKoncowy}%<br>Twój rekord to: ${highscoreValue} punktów.`;
     
     answers.forEach(answer => {
         if (answer) {
@@ -190,7 +201,7 @@ function wyswietlWynik() {
         continueButton.style.display = "none";
     }
     // Przycisk restartu pozostaje widoczny, bo jest w quiz-header-info, które jest widoczne
-    resetujStanQuizu();
+    resetujStanQuizu(); // Resetuj stan bieżącego quizu po zakończeniu
 }
 
 function rozpocznijQuizOdNowa() {
